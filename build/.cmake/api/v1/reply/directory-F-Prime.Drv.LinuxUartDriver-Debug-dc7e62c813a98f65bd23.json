@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "F-Prime/Drv/LinuxUartDriver",
+		"source" : "fprime/Drv/LinuxUartDriver"
+	}
+}

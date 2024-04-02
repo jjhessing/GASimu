@@ -1,0 +1,73 @@
+{
+	"backtrace" : 6,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"refresh_cache_add_global_target",
+			"cmake_language",
+			"setup_global_target",
+			"setup_global_targets",
+			"fprime_setup_included_code"
+		],
+		"files" : 
+		[
+			"fprime/cmake/target/refresh_cache.cmake",
+			"fprime/cmake/target/target.cmake",
+			"fprime/cmake/FPrime.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 163,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 90,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 90,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 5
+			}
+		]
+	},
+	"id" : "refresh_cache::@6890427a1f51a3e7e1df",
+	"name" : "refresh_cache",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,5 @@
+
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/ComLogger/ComLogger.cpp
+/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Svc/ComLogger/ComLoggerComponentAi.xml;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Svc/ComLogger/ComLoggerComponentAc.cpp;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Svc/ComLogger/ComLoggerComponentAc.hpp
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/ComLogger/ComLogger.fpp;/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/ComLogger/Commands.fppi;/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/ComLogger/Events.fppi
+

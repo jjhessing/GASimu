@@ -1,0 +1,2 @@
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Fw/Log/Log.fpp
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/AssertFatalAdapter/AssertFatalEvents.fppi

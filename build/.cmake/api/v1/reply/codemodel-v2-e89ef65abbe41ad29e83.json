@@ -1,0 +1,2414 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						7,
+						8,
+						29,
+						74,
+						75,
+						91,
+						94,
+						97,
+						98
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						86,
+						87
+					]
+				},
+				{
+					"build" : "F-Prime/Autocoders",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-F-Prime.Autocoders-Debug-dcc8964cf572fbc79b05.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "fprime/Autocoders"
+				},
+				{
+					"build" : "F-Prime/Autocoders/Python",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-F-Prime.Autocoders.Python-Debug-883147a0ede6fb3e5457.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "fprime/Autocoders/Python"
+				},
+				{
+					"build" : "F-Prime/Autocoders/Python/src",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-F-Prime.Autocoders.Python.src-Debug-ade20c9a0240d3bde1a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "fprime/Autocoders/Python/src"
+				},
+				{
+					"build" : "F-Prime/Autocoders/Python/src/fprime_ac",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-F-Prime.Autocoders.Python.src.fprime_ac-Debug-0d7fe9d9b843df3ba7f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "fprime/Autocoders/Python/src/fprime_ac"
+				},
+				{
+					"build" : "F-Prime/Autocoders/Python/src/fprime_ac/generators",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-F-Prime.Autocoders.Python.src.fprime_ac.generators-Debug-658d212659070a893427.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "fprime/Autocoders/Python/src/fprime_ac/generators"
+				},
+				{
+					"build" : "F-Prime/Autocoders/Python/src/fprime_ac/generators/templates",
+					"jsonFile" : "directory-F-Prime.Autocoders.Python.src.fprime_ac.generators.templates-Debug-27f22ebd969ba9d5e12f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "fprime/Autocoders/Python/src/fprime_ac/generators/templates",
+					"targetIndexes" : 
+					[
+						83
+					]
+				},
+				{
+					"build" : "config",
+					"jsonFile" : "directory-config-Debug-af35ec14a83e6225ddc5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "fprime/config",
+					"targetIndexes" : 
+					[
+						84
+					]
+				},
+				{
+					"build" : "F-Prime/Fw",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27
+					],
+					"jsonFile" : "directory-F-Prime.Fw-Debug-5f2971765c2fda504b30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw"
+				},
+				{
+					"build" : "F-Prime/Fw/Buffer",
+					"jsonFile" : "directory-F-Prime.Fw.Buffer-Debug-c3056e64665e6fad73bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Buffer",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/Cmd",
+					"jsonFile" : "directory-F-Prime.Fw.Cmd-Debug-778785dbc778a544aed6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Cmd",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/Com",
+					"jsonFile" : "directory-F-Prime.Fw.Com-Debug-ac025d2e3e65887b043c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Com",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/Dp",
+					"jsonFile" : "directory-F-Prime.Fw.Dp-Debug-c7403dbd54c114494516.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Dp",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/Log",
+					"jsonFile" : "directory-F-Prime.Fw.Log-Debug-56f7ab28373499761a8b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Log",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/Logger",
+					"jsonFile" : "directory-F-Prime.Fw.Logger-Debug-c2986e056aa344641697.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Logger",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/Prm",
+					"jsonFile" : "directory-F-Prime.Fw.Prm-Debug-5006f365c2879017bc20.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Prm",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/Time",
+					"jsonFile" : "directory-F-Prime.Fw.Time-Debug-d52e215ce6b11770898c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Time",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/Tlm",
+					"jsonFile" : "directory-F-Prime.Fw.Tlm-Debug-98272e40e4bb2e11ceea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Tlm",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/Cfg",
+					"jsonFile" : "directory-F-Prime.Fw.Cfg-Debug-faf587a3ece2246aef5c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Cfg",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/Comp",
+					"jsonFile" : "directory-F-Prime.Fw.Comp-Debug-de8c5728f6a25cd64edf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Comp",
+					"targetIndexes" : 
+					[
+						20,
+						21
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/FilePacket",
+					"childIndexes" : 
+					[
+						21
+					],
+					"jsonFile" : "directory-F-Prime.Fw.FilePacket-Debug-21eecdeec275442f5a8a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/FilePacket",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/FilePacket/GTest",
+					"jsonFile" : "directory-F-Prime.Fw.FilePacket.GTest-Debug-74e57ccc70ec232309aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 20,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/FilePacket/GTest"
+				},
+				{
+					"build" : "F-Prime/Fw/Obj",
+					"jsonFile" : "directory-F-Prime.Fw.Obj-Debug-76a1bee9cf5e2a0f23bd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Obj",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/Port",
+					"jsonFile" : "directory-F-Prime.Fw.Port-Debug-2aa387607299262bc826.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Port",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/Ports/SuccessCondition",
+					"jsonFile" : "directory-F-Prime.Fw.Ports.SuccessCondition-Debug-c8eb7e7fc857c238448e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Ports/SuccessCondition",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/SerializableFile",
+					"jsonFile" : "directory-F-Prime.Fw.SerializableFile-Debug-068ac0d1883b2b381627.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/SerializableFile",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/Test",
+					"jsonFile" : "directory-F-Prime.Fw.Test-Debug-8382be20ff5a2eb5acae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Test",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/Types",
+					"childIndexes" : 
+					[
+						28
+					],
+					"jsonFile" : "directory-F-Prime.Fw.Types-Debug-fde017d5794ba5c2b12b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Types",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "F-Prime/Fw/Types/GTest",
+					"jsonFile" : "directory-F-Prime.Fw.Types.GTest-Debug-7b0dd1057527c28628d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 27,
+					"projectIndex" : 0,
+					"source" : "fprime/Fw/Types/GTest"
+				},
+				{
+					"build" : "F-Prime/Svc",
+					"childIndexes" : 
+					[
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73
+					],
+					"jsonFile" : "directory-F-Prime.Svc-Debug-fe1b8b4fedee2c08bf85.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc"
+				},
+				{
+					"build" : "F-Prime/Svc/Cycle",
+					"jsonFile" : "directory-F-Prime.Svc.Cycle-Debug-488f6cd9846463d9c49d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/Cycle",
+					"targetIndexes" : 
+					[
+						51
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/Fatal",
+					"jsonFile" : "directory-F-Prime.Svc.Fatal-Debug-822af40bb129e7a998e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/Fatal",
+					"targetIndexes" : 
+					[
+						53
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/Ping",
+					"jsonFile" : "directory-F-Prime.Svc.Ping-Debug-a4771a9f8ef2b2cd953e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/Ping",
+					"targetIndexes" : 
+					[
+						67
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/PolyIf",
+					"jsonFile" : "directory-F-Prime.Svc.PolyIf-Debug-b7520c4c6002d223d67b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/PolyIf",
+					"targetIndexes" : 
+					[
+						69
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/Sched",
+					"jsonFile" : "directory-F-Prime.Svc.Sched-Debug-8f5119a03a2821873d79.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/Sched",
+					"targetIndexes" : 
+					[
+						73
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/Seq",
+					"jsonFile" : "directory-F-Prime.Svc.Seq-Debug-a524ee842b05d773ed26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/Seq",
+					"targetIndexes" : 
+					[
+						74
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/WatchDog",
+					"jsonFile" : "directory-F-Prime.Svc.WatchDog-Debug-34409c87000af52b1b31.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/WatchDog",
+					"targetIndexes" : 
+					[
+						79
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/ActiveLogger",
+					"jsonFile" : "directory-F-Prime.Svc.ActiveLogger-Debug-7d8668ff08f954779096.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/ActiveLogger",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/ActiveRateGroup",
+					"jsonFile" : "directory-F-Prime.Svc.ActiveRateGroup-Debug-538e0310827947f9c588.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/ActiveRateGroup",
+					"targetIndexes" : 
+					[
+						37
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/AssertFatalAdapter",
+					"jsonFile" : "directory-F-Prime.Svc.AssertFatalAdapter-Debug-6c6538a3adeb24d6dd43.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/AssertFatalAdapter",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/BufferAccumulator",
+					"jsonFile" : "directory-F-Prime.Svc.BufferAccumulator-Debug-4d448676e00665201f57.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/BufferAccumulator",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/BufferManager",
+					"jsonFile" : "directory-F-Prime.Svc.BufferManager-Debug-601b5ee878f9ab862720.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/BufferManager",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/BufferLogger",
+					"jsonFile" : "directory-F-Prime.Svc.BufferLogger-Debug-7f2765d3afa081549d54.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/BufferLogger",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/BufferRepeater",
+					"jsonFile" : "directory-F-Prime.Svc.BufferRepeater-Debug-dc9d013e76a7454efc82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/BufferRepeater",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/ComLogger",
+					"jsonFile" : "directory-F-Prime.Svc.ComLogger-Debug-23cc4f1674c66f1e238a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/ComLogger",
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/ComQueue",
+					"jsonFile" : "directory-F-Prime.Svc.ComQueue-Debug-2f6e52a2b9ecbf78b25a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/ComQueue",
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/ComSplitter",
+					"jsonFile" : "directory-F-Prime.Svc.ComSplitter-Debug-8a01098ce66b63f0e160.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/ComSplitter",
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/ComStub",
+					"jsonFile" : "directory-F-Prime.Svc.ComStub-Debug-06c4dccc72546ef7d514.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/ComStub",
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/CmdDispatcher",
+					"jsonFile" : "directory-F-Prime.Svc.CmdDispatcher-Debug-c9056e191ac2ff1fd9ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/CmdDispatcher",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/CmdSequencer",
+					"jsonFile" : "directory-F-Prime.Svc.CmdSequencer-Debug-ea5b2119bcd020db490f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/CmdSequencer",
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/CmdSplitter",
+					"jsonFile" : "directory-F-Prime.Svc.CmdSplitter-Debug-268f5b9ba11e34c27fc8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/CmdSplitter",
+					"targetIndexes" : 
+					[
+						46
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/Deframer",
+					"jsonFile" : "directory-F-Prime.Svc.Deframer-Debug-0bf709de796f27a8fdd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/Deframer",
+					"targetIndexes" : 
+					[
+						52
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/FatalHandler",
+					"jsonFile" : "directory-F-Prime.Svc.FatalHandler-Debug-1bcb766f28900b42c046.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/FatalHandler",
+					"targetIndexes" : 
+					[
+						54
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/FileDownlinkPorts",
+					"jsonFile" : "directory-F-Prime.Svc.FileDownlinkPorts-Debug-c88721021ee7246993ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/FileDownlinkPorts",
+					"targetIndexes" : 
+					[
+						56
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/FileDownlink",
+					"jsonFile" : "directory-F-Prime.Svc.FileDownlink-Debug-7b5bcbef329b4e4105e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/FileDownlink",
+					"targetIndexes" : 
+					[
+						55
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/FileManager",
+					"jsonFile" : "directory-F-Prime.Svc.FileManager-Debug-b5497044022469a53f11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/FileManager",
+					"targetIndexes" : 
+					[
+						57
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/FileUplink",
+					"jsonFile" : "directory-F-Prime.Svc.FileUplink-Debug-d99139a2f4e86b0831f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/FileUplink",
+					"targetIndexes" : 
+					[
+						58
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/GenericHub",
+					"jsonFile" : "directory-F-Prime.Svc.GenericHub-Debug-a8225f8e89a8a31517e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/GenericHub",
+					"targetIndexes" : 
+					[
+						61
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/GroundInterface",
+					"jsonFile" : "directory-F-Prime.Svc.GroundInterface-Debug-d319a65565d6dd1d8f47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/GroundInterface",
+					"targetIndexes" : 
+					[
+						62
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/Framer",
+					"jsonFile" : "directory-F-Prime.Svc.Framer-Debug-15924d3d687f89724666.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/Framer",
+					"targetIndexes" : 
+					[
+						59
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/FramingProtocol",
+					"jsonFile" : "directory-F-Prime.Svc.FramingProtocol-Debug-f0de9c2835a9f12479cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/FramingProtocol",
+					"targetIndexes" : 
+					[
+						60
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/Health",
+					"jsonFile" : "directory-F-Prime.Svc.Health-Debug-7ff2bcef7af4aade998b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/Health",
+					"targetIndexes" : 
+					[
+						63
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/PassiveRateGroup",
+					"jsonFile" : "directory-F-Prime.Svc.PassiveRateGroup-Debug-ccedb826aebc612079bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/PassiveRateGroup",
+					"targetIndexes" : 
+					[
+						66
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/PolyDb",
+					"jsonFile" : "directory-F-Prime.Svc.PolyDb-Debug-2d2ff605d37907ad49ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/PolyDb",
+					"targetIndexes" : 
+					[
+						68
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/PrmDb",
+					"jsonFile" : "directory-F-Prime.Svc.PrmDb-Debug-11877bac01c46e56b643.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/PrmDb",
+					"targetIndexes" : 
+					[
+						71
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/RateGroupDriver",
+					"jsonFile" : "directory-F-Prime.Svc.RateGroupDriver-Debug-2dc3311d85a20d6280c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/RateGroupDriver",
+					"targetIndexes" : 
+					[
+						72
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/StaticMemory",
+					"jsonFile" : "directory-F-Prime.Svc.StaticMemory-Debug-d9164411c90d2250f5d1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/StaticMemory",
+					"targetIndexes" : 
+					[
+						75
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/TlmChan",
+					"jsonFile" : "directory-F-Prime.Svc.TlmChan-Debug-b4df2fb71ba097dfef5a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/TlmChan",
+					"targetIndexes" : 
+					[
+						77
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/TlmPacketizer",
+					"jsonFile" : "directory-F-Prime.Svc.TlmPacketizer-Debug-fd05dd39a3ab0d0dd768.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/TlmPacketizer",
+					"targetIndexes" : 
+					[
+						78
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/SystemResources",
+					"jsonFile" : "directory-F-Prime.Svc.SystemResources-Debug-6ffa5d6129ccbe8eed61.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/SystemResources",
+					"targetIndexes" : 
+					[
+						76
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/PassiveConsoleTextLogger",
+					"jsonFile" : "directory-F-Prime.Svc.PassiveConsoleTextLogger-Debug-d4d29322745f38cc2fdc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/PassiveConsoleTextLogger",
+					"targetIndexes" : 
+					[
+						65
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/ActiveTextLogger",
+					"jsonFile" : "directory-F-Prime.Svc.ActiveTextLogger-Debug-273cc82d8bb73030aea6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/ActiveTextLogger",
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/PosixTime",
+					"jsonFile" : "directory-F-Prime.Svc.PosixTime-Debug-458d0acda8c9b3747233.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/PosixTime",
+					"targetIndexes" : 
+					[
+						70
+					]
+				},
+				{
+					"build" : "F-Prime/Svc/LinuxTimer",
+					"jsonFile" : "directory-F-Prime.Svc.LinuxTimer-Debug-d5f4f44820cf76c7f367.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 0,
+					"source" : "fprime/Svc/LinuxTimer",
+					"targetIndexes" : 
+					[
+						64
+					]
+				},
+				{
+					"build" : "F-Prime/Os",
+					"jsonFile" : "directory-F-Prime.Os-Debug-42303e3131d780a136f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "fprime/Os",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "F-Prime/Drv",
+					"childIndexes" : 
+					[
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90
+					],
+					"jsonFile" : "directory-F-Prime.Drv-Debug-ad23595488258199d5c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "fprime/Drv"
+				},
+				{
+					"build" : "F-Prime/Drv/DataTypes",
+					"jsonFile" : "directory-F-Prime.Drv.DataTypes-Debug-a4beaf441dfff6fc8265.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 0,
+					"source" : "fprime/Drv/DataTypes",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "F-Prime/Drv/GpioDriverPorts",
+					"jsonFile" : "directory-F-Prime.Drv.GpioDriverPorts-Debug-a5cb661df9f4d2da8d2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 0,
+					"source" : "fprime/Drv/GpioDriverPorts",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "F-Prime/Drv/SpiDriverPorts",
+					"jsonFile" : "directory-F-Prime.Drv.SpiDriverPorts-Debug-cf4cfa6b197f9c0217c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 0,
+					"source" : "fprime/Drv/SpiDriverPorts",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "F-Prime/Drv/I2cDriverPorts",
+					"jsonFile" : "directory-F-Prime.Drv.I2cDriverPorts-Debug-3c832fd0992c32932199.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 0,
+					"source" : "fprime/Drv/I2cDriverPorts",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "F-Prime/Drv/BlockDriver",
+					"jsonFile" : "directory-F-Prime.Drv.BlockDriver-Debug-ccb4dd81c3ac2efc0680.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 0,
+					"source" : "fprime/Drv/BlockDriver",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "F-Prime/Drv/ByteStreamDriverModel",
+					"jsonFile" : "directory-F-Prime.Drv.ByteStreamDriverModel-Debug-ca76c62ed0f8ec430932.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 0,
+					"source" : "fprime/Drv/ByteStreamDriverModel",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "F-Prime/Drv/LinuxGpioDriver",
+					"jsonFile" : "directory-F-Prime.Drv.LinuxGpioDriver-Debug-b95fef4d1c8c05b69ee4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 0,
+					"source" : "fprime/Drv/LinuxGpioDriver",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "F-Prime/Drv/LinuxUartDriver",
+					"jsonFile" : "directory-F-Prime.Drv.LinuxUartDriver-Debug-dc7e62c813a98f65bd23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 0,
+					"source" : "fprime/Drv/LinuxUartDriver",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "F-Prime/Drv/LinuxSpiDriver",
+					"jsonFile" : "directory-F-Prime.Drv.LinuxSpiDriver-Debug-e283468ddd2977def0b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 0,
+					"source" : "fprime/Drv/LinuxSpiDriver",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "F-Prime/Drv/LinuxI2cDriver",
+					"jsonFile" : "directory-F-Prime.Drv.LinuxI2cDriver-Debug-c1deb412e846ba87c5e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 0,
+					"source" : "fprime/Drv/LinuxI2cDriver",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "F-Prime/Drv/StreamCrossover",
+					"jsonFile" : "directory-F-Prime.Drv.StreamCrossover-Debug-1bce9d1ca28bb15d189c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 0,
+					"source" : "fprime/Drv/StreamCrossover",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "F-Prime/Drv/Ip",
+					"jsonFile" : "directory-F-Prime.Drv.Ip-Debug-3d97beeb2643ee76019c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 0,
+					"source" : "fprime/Drv/Ip",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "F-Prime/Drv/TcpClient",
+					"jsonFile" : "directory-F-Prime.Drv.TcpClient-Debug-a13af08c95b9ed4862f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 0,
+					"source" : "fprime/Drv/TcpClient",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "F-Prime/Drv/TcpServer",
+					"jsonFile" : "directory-F-Prime.Drv.TcpServer-Debug-41d30f3c6a7fc35abd02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 0,
+					"source" : "fprime/Drv/TcpServer",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "F-Prime/Drv/Udp",
+					"jsonFile" : "directory-F-Prime.Drv.Udp-Debug-2d3abfd15e40529b1557.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 0,
+					"source" : "fprime/Drv/Udp",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "F-Prime/CFDP",
+					"childIndexes" : 
+					[
+						92
+					],
+					"jsonFile" : "directory-F-Prime.CFDP-Debug-1244b3434cf58d3bb5a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "fprime/CFDP"
+				},
+				{
+					"build" : "F-Prime/CFDP/Checksum",
+					"childIndexes" : 
+					[
+						93
+					],
+					"jsonFile" : "directory-F-Prime.CFDP.Checksum-Debug-9d95c96953725b8164fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 91,
+					"projectIndex" : 0,
+					"source" : "fprime/CFDP/Checksum",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "F-Prime/CFDP/Checksum/GTest",
+					"jsonFile" : "directory-F-Prime.CFDP.Checksum.GTest-Debug-07854c9aa80a070a41f4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 92,
+					"projectIndex" : 0,
+					"source" : "fprime/CFDP/Checksum/GTest"
+				},
+				{
+					"build" : "F-Prime/Utils",
+					"childIndexes" : 
+					[
+						95,
+						96
+					],
+					"jsonFile" : "directory-F-Prime.Utils-Debug-b79e4b17dd1e5697b6a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "fprime/Utils",
+					"targetIndexes" : 
+					[
+						80
+					]
+				},
+				{
+					"build" : "F-Prime/Utils/Hash",
+					"jsonFile" : "directory-F-Prime.Utils.Hash-Debug-16ae5c518904dacd08d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 94,
+					"projectIndex" : 0,
+					"source" : "fprime/Utils/Hash",
+					"targetIndexes" : 
+					[
+						81
+					]
+				},
+				{
+					"build" : "F-Prime/Utils/Types",
+					"jsonFile" : "directory-F-Prime.Utils.Types-Debug-b939b76eba0e17e4246b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 94,
+					"projectIndex" : 0,
+					"source" : "fprime/Utils/Types",
+					"targetIndexes" : 
+					[
+						82
+					]
+				},
+				{
+					"build" : "Components",
+					"jsonFile" : "directory-Components-Debug-7745e0c4162274434b18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Components"
+				},
+				{
+					"build" : "imu",
+					"jsonFile" : "directory-imu-Debug-682f98f0d683fd67f0c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "imu",
+					"targetIndexes" : 
+					[
+						85
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98
+					],
+					"name" : "imu",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 92,
+					"id" : "CFDP_Checksum::@4a5d0545b41c1acba027",
+					"jsonFile" : "target-CFDP_Checksum-Debug-e04cbfad5f40ede56c7f.json",
+					"name" : "CFDP_Checksum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "Drv_BlockDriver::@2fc7ba4fd90ea6b9465e",
+					"jsonFile" : "target-Drv_BlockDriver-Debug-71c66d545dbe20653d29.json",
+					"name" : "Drv_BlockDriver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 81,
+					"id" : "Drv_ByteStreamDriverModel::@eb982be30f8597d87992",
+					"jsonFile" : "target-Drv_ByteStreamDriverModel-Debug-fe53263f356f37ed541c.json",
+					"name" : "Drv_ByteStreamDriverModel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 76,
+					"id" : "Drv_DataTypes::@a1bd683f63554a55b4a8",
+					"jsonFile" : "target-Drv_DataTypes-Debug-2223af64c7a5326d498b.json",
+					"name" : "Drv_DataTypes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 77,
+					"id" : "Drv_GpioDriverPorts::@fbf33f926951007e7af3",
+					"jsonFile" : "target-Drv_GpioDriverPorts-Debug-50d59897358ab4678afe.json",
+					"name" : "Drv_GpioDriverPorts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 79,
+					"id" : "Drv_I2cDriverPorts::@49e9b91cef7451bdf312",
+					"jsonFile" : "target-Drv_I2cDriverPorts-Debug-c9cfc58199ea57555bed.json",
+					"name" : "Drv_I2cDriverPorts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "Drv_Ip::@51b8208f7065ff3afe9e",
+					"jsonFile" : "target-Drv_Ip-Debug-46c610203130f5aa90ee.json",
+					"name" : "Drv_Ip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "Drv_LinuxGpioDriver::@4e998bb558ce3d8084e1",
+					"jsonFile" : "target-Drv_LinuxGpioDriver-Debug-37cab2375a774a013f58.json",
+					"name" : "Drv_LinuxGpioDriver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 85,
+					"id" : "Drv_LinuxI2cDriver::@e6b6a6b660570e9f2fe7",
+					"jsonFile" : "target-Drv_LinuxI2cDriver-Debug-a995a962c162ea4fc8c4.json",
+					"name" : "Drv_LinuxI2cDriver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 84,
+					"id" : "Drv_LinuxSpiDriver::@66424774dfc749f21027",
+					"jsonFile" : "target-Drv_LinuxSpiDriver-Debug-c40c6b5f15b963d42d86.json",
+					"name" : "Drv_LinuxSpiDriver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 83,
+					"id" : "Drv_LinuxUartDriver::@bdc344679fcf764204f2",
+					"jsonFile" : "target-Drv_LinuxUartDriver-Debug-d811984c3936ef8b3adb.json",
+					"name" : "Drv_LinuxUartDriver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 78,
+					"id" : "Drv_SpiDriverPorts::@d92bb966ed208cf7f066",
+					"jsonFile" : "target-Drv_SpiDriverPorts-Debug-fe9854a3956e1d907816.json",
+					"name" : "Drv_SpiDriverPorts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "Drv_StreamCrossover::@6a1e93ab9540cd26ef07",
+					"jsonFile" : "target-Drv_StreamCrossover-Debug-a472f92ac31838741a12.json",
+					"name" : "Drv_StreamCrossover",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 88,
+					"id" : "Drv_TcpClient::@4d7d4d1826c146d26250",
+					"jsonFile" : "target-Drv_TcpClient-Debug-7f9fc93a36566ef3b094.json",
+					"name" : "Drv_TcpClient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 89,
+					"id" : "Drv_TcpServer::@30b66d637d536372979b",
+					"jsonFile" : "target-Drv_TcpServer-Debug-3f7df3d8a25cef10b294.json",
+					"name" : "Drv_TcpServer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "Drv_Udp::@83b865a088ed92a22c8a",
+					"jsonFile" : "target-Drv_Udp-Debug-930765b8a903e69df5e0.json",
+					"name" : "Drv_Udp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "Fw_Buffer::@b6a4fd4b11177980df5a",
+					"jsonFile" : "target-Fw_Buffer-Debug-0327072dfd99523e457c.json",
+					"name" : "Fw_Buffer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "Fw_Cfg::@3d630e8d24c0bc520c50",
+					"jsonFile" : "target-Fw_Cfg-Debug-3de8d148c6a4ba64430e.json",
+					"name" : "Fw_Cfg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "Fw_Cmd::@ae626cd099d41e9e9318",
+					"jsonFile" : "target-Fw_Cmd-Debug-9ffeb9912ba8ee1381e4.json",
+					"name" : "Fw_Cmd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "Fw_Com::@6a3e6ae556dcaf1b2d03",
+					"jsonFile" : "target-Fw_Com-Debug-aadb9180719b5191d9d4.json",
+					"name" : "Fw_Com",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "Fw_Comp::@be13a7255a8c30152ae7",
+					"jsonFile" : "target-Fw_Comp-Debug-597f1c99b2b919a49305.json",
+					"name" : "Fw_Comp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "Fw_CompQueued::@be13a7255a8c30152ae7",
+					"jsonFile" : "target-Fw_CompQueued-Debug-21145a19584b60ae6bc6.json",
+					"name" : "Fw_CompQueued",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "Fw_Dp::@fd0b6326c4ee4eec935c",
+					"jsonFile" : "target-Fw_Dp-Debug-720e3b73eaf84ae8e5c1.json",
+					"name" : "Fw_Dp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "Fw_FilePacket::@d11939a7170117134ca4",
+					"jsonFile" : "target-Fw_FilePacket-Debug-ddba46378c21b25ccd84.json",
+					"name" : "Fw_FilePacket",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "Fw_Log::@d2c214098f28da1657da",
+					"jsonFile" : "target-Fw_Log-Debug-2867f54e69f7460acd36.json",
+					"name" : "Fw_Log",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "Fw_Logger::@6651bd2042d48ad4175a",
+					"jsonFile" : "target-Fw_Logger-Debug-28a03712f141ae7eb367.json",
+					"name" : "Fw_Logger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "Fw_Obj::@912483ad28fc1305733b",
+					"jsonFile" : "target-Fw_Obj-Debug-464c97a0d27914c89f2e.json",
+					"name" : "Fw_Obj",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "Fw_Port::@1b2ea0455839762bd179",
+					"jsonFile" : "target-Fw_Port-Debug-44128097c31f190e49c7.json",
+					"name" : "Fw_Port",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "Fw_Ports_SuccessCondition::@08f9430cdbbf7b5a7cb9",
+					"jsonFile" : "target-Fw_Ports_SuccessCondition-Debug-a41d7b6c2db200fc1a5b.json",
+					"name" : "Fw_Ports_SuccessCondition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "Fw_Prm::@7b6b0bc4a611939e7048",
+					"jsonFile" : "target-Fw_Prm-Debug-13690495952f21308467.json",
+					"name" : "Fw_Prm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "Fw_SerializableFile::@69d446d694f1db981a5c",
+					"jsonFile" : "target-Fw_SerializableFile-Debug-f1853b739ff0c6af4674.json",
+					"name" : "Fw_SerializableFile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "Fw_Test::@98be6982b2705e3e9cfb",
+					"jsonFile" : "target-Fw_Test-Debug-6e51b600ba3533a2a1e0.json",
+					"name" : "Fw_Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "Fw_Time::@8ee86473d26419eb0a0e",
+					"jsonFile" : "target-Fw_Time-Debug-93549de9e9118992924d.json",
+					"name" : "Fw_Time",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "Fw_Tlm::@9a2bbdd1c1e62b480de7",
+					"jsonFile" : "target-Fw_Tlm-Debug-0dbde0a8d7a104d6ba3a.json",
+					"name" : "Fw_Tlm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "Fw_Types::@765d384e0a6293393b03",
+					"jsonFile" : "target-Fw_Types-Debug-f02219405448cda499f9.json",
+					"name" : "Fw_Types",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "Os::@1c77778ad90289ad7483",
+					"jsonFile" : "target-Os-Debug-8afa71c87e6d50e11056.json",
+					"name" : "Os",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "Svc_ActiveLogger::@712b7e8ca3530b841943",
+					"jsonFile" : "target-Svc_ActiveLogger-Debug-40146455b9d22e92cc30.json",
+					"name" : "Svc_ActiveLogger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "Svc_ActiveRateGroup::@80c056cbd1110820a533",
+					"jsonFile" : "target-Svc_ActiveRateGroup-Debug-c4c2e41c69cbcb5963ba.json",
+					"name" : "Svc_ActiveRateGroup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 71,
+					"id" : "Svc_ActiveTextLogger::@441816b830484a85049a",
+					"jsonFile" : "target-Svc_ActiveTextLogger-Debug-9f8682e95f516f6d4d97.json",
+					"name" : "Svc_ActiveTextLogger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "Svc_AssertFatalAdapter::@47aa7968a8694041ff6c",
+					"jsonFile" : "target-Svc_AssertFatalAdapter-Debug-40acb2c17e19816d0483.json",
+					"name" : "Svc_AssertFatalAdapter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "Svc_BufferAccumulator::@646bcfec2641ac77d4bd",
+					"jsonFile" : "target-Svc_BufferAccumulator-Debug-3325c55c1add756d2344.json",
+					"name" : "Svc_BufferAccumulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "Svc_BufferLogger::@45c6cc9cf103e6c095c0",
+					"jsonFile" : "target-Svc_BufferLogger-Debug-22c57bed6ea5489275bf.json",
+					"name" : "Svc_BufferLogger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "Svc_BufferManager::@f823596e597b12ca8947",
+					"jsonFile" : "target-Svc_BufferManager-Debug-4026197a8ae4d9f1b155.json",
+					"name" : "Svc_BufferManager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "Svc_BufferRepeater::@0dbcc566e12f663914e4",
+					"jsonFile" : "target-Svc_BufferRepeater-Debug-fbd90e87aae1077ec1fa.json",
+					"name" : "Svc_BufferRepeater",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "Svc_CmdDispatcher::@53fd0848e8395a6bd6e7",
+					"jsonFile" : "target-Svc_CmdDispatcher-Debug-693293fe5ee452af0490.json",
+					"name" : "Svc_CmdDispatcher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "Svc_CmdSequencer::@5d08e3045875c6bf71f3",
+					"jsonFile" : "target-Svc_CmdSequencer-Debug-706ce69b0a2d029c9aa4.json",
+					"name" : "Svc_CmdSequencer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "Svc_CmdSplitter::@526439a3e194f1ea652f",
+					"jsonFile" : "target-Svc_CmdSplitter-Debug-32228f935f7b1c937224.json",
+					"name" : "Svc_CmdSplitter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "Svc_ComLogger::@0226085e2687b195b82a",
+					"jsonFile" : "target-Svc_ComLogger-Debug-f5c722f085b14f1730d7.json",
+					"name" : "Svc_ComLogger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "Svc_ComQueue::@cb086346a0fbf8e726cc",
+					"jsonFile" : "target-Svc_ComQueue-Debug-a251b4090df937915bcf.json",
+					"name" : "Svc_ComQueue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "Svc_ComSplitter::@3dd426de3df1c8bcae52",
+					"jsonFile" : "target-Svc_ComSplitter-Debug-c9a171199ec5d43752d8.json",
+					"name" : "Svc_ComSplitter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "Svc_ComStub::@1b4eecf0c8645b011aac",
+					"jsonFile" : "target-Svc_ComStub-Debug-938d2b35d902c64cfa53.json",
+					"name" : "Svc_ComStub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "Svc_Cycle::@b1f6cbefc18d2d07e495",
+					"jsonFile" : "target-Svc_Cycle-Debug-ba76a7b512f8aaa375e7.json",
+					"name" : "Svc_Cycle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "Svc_Deframer::@91c490aa89a31287ce1d",
+					"jsonFile" : "target-Svc_Deframer-Debug-25739b93533d705a5683.json",
+					"name" : "Svc_Deframer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "Svc_Fatal::@22deff4d4e1865d4ee8c",
+					"jsonFile" : "target-Svc_Fatal-Debug-11b4ca5fabc5d559add5.json",
+					"name" : "Svc_Fatal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "Svc_FatalHandler::@51acb8b283de1a882e3d",
+					"jsonFile" : "target-Svc_FatalHandler-Debug-3ff4c76c685f89d1ea54.json",
+					"name" : "Svc_FatalHandler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "Svc_FileDownlink::@1210841fc1dc9da603ea",
+					"jsonFile" : "target-Svc_FileDownlink-Debug-c31b3a5cdaaca46b381f.json",
+					"name" : "Svc_FileDownlink",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 53,
+					"id" : "Svc_FileDownlinkPorts::@4705d17759a28e503b46",
+					"jsonFile" : "target-Svc_FileDownlinkPorts-Debug-0e9a65bc6c11af21c63c.json",
+					"name" : "Svc_FileDownlinkPorts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "Svc_FileManager::@9cce48d1f9658df34992",
+					"jsonFile" : "target-Svc_FileManager-Debug-555b0612e9949cb8d886.json",
+					"name" : "Svc_FileManager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "Svc_FileUplink::@19c19124d6a70d495c11",
+					"jsonFile" : "target-Svc_FileUplink-Debug-f18e95a540f1493877fe.json",
+					"name" : "Svc_FileUplink",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 59,
+					"id" : "Svc_Framer::@5482c05f48219a018bf3",
+					"jsonFile" : "target-Svc_Framer-Debug-d3271b61d7b1aee116de.json",
+					"name" : "Svc_Framer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 60,
+					"id" : "Svc_FramingProtocol::@2680fe67cdc3dd7d48d2",
+					"jsonFile" : "target-Svc_FramingProtocol-Debug-b227f00362d9e10c1af4.json",
+					"name" : "Svc_FramingProtocol",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 57,
+					"id" : "Svc_GenericHub::@734d89b7dc1dde6c033c",
+					"jsonFile" : "target-Svc_GenericHub-Debug-60a438c87cd9e5eaac2f.json",
+					"name" : "Svc_GenericHub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 58,
+					"id" : "Svc_GroundInterface::@d81ffd87c040945ba72b",
+					"jsonFile" : "target-Svc_GroundInterface-Debug-0a9edbdbcfad2fa4014b.json",
+					"name" : "Svc_GroundInterface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 61,
+					"id" : "Svc_Health::@03f69794445d4b3d1c2c",
+					"jsonFile" : "target-Svc_Health-Debug-56f09a235ffafea4ee23.json",
+					"name" : "Svc_Health",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 73,
+					"id" : "Svc_LinuxTimer::@fa65d3e0ba6a2c6d7ed8",
+					"jsonFile" : "target-Svc_LinuxTimer-Debug-66b741b83c3b58b4d220.json",
+					"name" : "Svc_LinuxTimer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "Svc_PassiveConsoleTextLogger::@9c3863d009a33c58545c",
+					"jsonFile" : "target-Svc_PassiveConsoleTextLogger-Debug-6768bffcacb3aa9d45ff.json",
+					"name" : "Svc_PassiveConsoleTextLogger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 62,
+					"id" : "Svc_PassiveRateGroup::@3cc2390fe2387cf5e979",
+					"jsonFile" : "target-Svc_PassiveRateGroup-Debug-95950188150e9424f533.json",
+					"name" : "Svc_PassiveRateGroup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "Svc_Ping::@b2faf2f557cff138fa2f",
+					"jsonFile" : "target-Svc_Ping-Debug-fa6f59b934309a250635.json",
+					"name" : "Svc_Ping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 63,
+					"id" : "Svc_PolyDb::@2a7e593ebfa744eee678",
+					"jsonFile" : "target-Svc_PolyDb-Debug-f69152c67367aa386fc1.json",
+					"name" : "Svc_PolyDb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "Svc_PolyIf::@e953a3ee948718c76ca6",
+					"jsonFile" : "target-Svc_PolyIf-Debug-0bed649d8e57c20291df.json",
+					"name" : "Svc_PolyIf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 72,
+					"id" : "Svc_PosixTime::@ef9996204114a403ef28",
+					"jsonFile" : "target-Svc_PosixTime-Debug-1c05818e61754918a930.json",
+					"name" : "Svc_PosixTime",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 64,
+					"id" : "Svc_PrmDb::@15c1796a8105b046d98a",
+					"jsonFile" : "target-Svc_PrmDb-Debug-3a4adac903058c44fa93.json",
+					"name" : "Svc_PrmDb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 65,
+					"id" : "Svc_RateGroupDriver::@5b9032b8cbb91254d8b2",
+					"jsonFile" : "target-Svc_RateGroupDriver-Debug-024cf78282a33140ba18.json",
+					"name" : "Svc_RateGroupDriver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "Svc_Sched::@a762d5916fe004d0f286",
+					"jsonFile" : "target-Svc_Sched-Debug-3e70d8cfee195f7b44f2.json",
+					"name" : "Svc_Sched",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "Svc_Seq::@4745391b0f3e1975760d",
+					"jsonFile" : "target-Svc_Seq-Debug-1c381d150e00a861dbde.json",
+					"name" : "Svc_Seq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "Svc_StaticMemory::@07a1971bda167440aac5",
+					"jsonFile" : "target-Svc_StaticMemory-Debug-ae003b7624070bc26fb3.json",
+					"name" : "Svc_StaticMemory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 69,
+					"id" : "Svc_SystemResources::@168cbbe15532d1fdd7cc",
+					"jsonFile" : "target-Svc_SystemResources-Debug-41cdbb7d6e03914f177a.json",
+					"name" : "Svc_SystemResources",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "Svc_TlmChan::@a0b64b25544b8123e472",
+					"jsonFile" : "target-Svc_TlmChan-Debug-074f48ad3fb53eb2f5c1.json",
+					"name" : "Svc_TlmChan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "Svc_TlmPacketizer::@9bb3e19eb551268ab5f0",
+					"jsonFile" : "target-Svc_TlmPacketizer-Debug-d012f45aeb1405928b1b.json",
+					"name" : "Svc_TlmPacketizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "Svc_WatchDog::@362308b343e0e6cfde2f",
+					"jsonFile" : "target-Svc_WatchDog-Debug-2726491cc6fb3ff52b3e.json",
+					"name" : "Svc_WatchDog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "Utils::@d5a4dfd1dd8caa88b3a7",
+					"jsonFile" : "target-Utils-Debug-0b69987b8bdc24875aae.json",
+					"name" : "Utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 95,
+					"id" : "Utils_Hash::@edd27f8e17e26521d077",
+					"jsonFile" : "target-Utils_Hash-Debug-299b61d88f436dc6ec7b.json",
+					"name" : "Utils_Hash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 96,
+					"id" : "Utils_Types::@48e23cb50aec726171e2",
+					"jsonFile" : "target-Utils_Types-Debug-70370bc907c12236621c.json",
+					"name" : "Utils_Types",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "codegen::@f1a1de89da1e4e744c3e",
+					"jsonFile" : "target-codegen-Debug-87b1e378aad72156ac80.json",
+					"name" : "codegen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "config::@1ea838694151cac89012",
+					"jsonFile" : "target-config-Debug-0f5d71f347b02259826f.json",
+					"name" : "config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 98,
+					"id" : "imu::@f7c173c2b3be48e197b7",
+					"jsonFile" : "target-imu-Debug-e6ce570e731c1565fba8.json",
+					"name" : "imu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "refresh_cache::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-refresh_cache-Debug-2092d1a496e8e126b41e.json",
+					"name" : "refresh_cache",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "version::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-version-Debug-c9b7d5d205ed067aaf31.json",
+					"name" : "version",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jjhessing/Documents/GAS/GASimu/imu/build",
+		"source" : "/home/jjhessing/Documents/GAS/GASimu/imu"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

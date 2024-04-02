@@ -1,0 +1,5 @@
+
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/Deframer/Deframer.cpp
+/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Svc/Deframer/DeframerComponentAi.xml;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Svc/Deframer/DeframerComponentAc.cpp;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Svc/Deframer/DeframerComponentAc.hpp
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/Deframer/Deframer.fpp
+Svc/FramingProtocol;Utils/Types

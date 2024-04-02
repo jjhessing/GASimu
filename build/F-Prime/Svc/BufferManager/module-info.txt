@@ -1,0 +1,5 @@
+
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/BufferManager/BufferManagerComponentImpl.cpp
+/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Svc/BufferManager/BufferManagerComponentAi.xml;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Svc/BufferManager/BufferManagerComponentAc.cpp;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Svc/BufferManager/BufferManagerComponentAc.hpp
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/BufferManager/BufferManager.fpp;/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/BufferManager/Events.fppi;/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/BufferManager/Telemetry.fppi
+

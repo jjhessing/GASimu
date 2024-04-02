@@ -1,0 +1,5 @@
+
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/PassiveConsoleTextLogger/ConsoleTextLoggerImplCommon.cpp
+/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Svc/PassiveConsoleTextLogger/PassiveTextLoggerComponentAi.xml;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Svc/PassiveConsoleTextLogger/PassiveTextLoggerComponentAc.cpp;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Svc/PassiveConsoleTextLogger/PassiveTextLoggerComponentAc.hpp
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/PassiveConsoleTextLogger/PassiveConsoleTextLogger.fpp
+Fw/Logger

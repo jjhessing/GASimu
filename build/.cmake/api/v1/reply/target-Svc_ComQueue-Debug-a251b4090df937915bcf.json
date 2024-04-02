@@ -1,0 +1,820 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/Linux/libSvc_ComQueue.a"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"generate_base_module_properties",
+			"generate_library",
+			"register_fprime_module",
+			"target_link_libraries",
+			"build_setup_build_module",
+			"build_add_module_target",
+			"cmake_language",
+			"setup_single_target",
+			"setup_module_targets",
+			"add_dependencies",
+			"add_definitions",
+			"include",
+			"include_directories",
+			"fprime_setup_global_includes",
+			"fprime_initialize_build_system",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"fprime/cmake/module.cmake",
+			"fprime/cmake/API.cmake",
+			"fprime/Svc/ComQueue/CMakeLists.txt",
+			"fprime/cmake/target/build.cmake",
+			"fprime/cmake/target/target.cmake",
+			"fprime/Fw/CMakeLists.txt",
+			"fprime/cmake/platform/Linux.cmake",
+			"fprime/cmake/platform/platform.cmake",
+			"fprime/cmake/FPrime.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 228,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 155,
+				"parent" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 116,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 116,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 141,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 93,
+				"parent" : 9
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 27,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 93,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 93,
+				"parent" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 83,
+				"parent" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 83,
+				"parent" : 9
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 12,
+				"file" : 9,
+				"line" : 13,
+				"parent" : 17
+			},
+			{
+				"file" : 8,
+				"parent" : 18
+			},
+			{
+				"command" : 12,
+				"file" : 8,
+				"line" : 29,
+				"parent" : 19
+			},
+			{
+				"file" : 7,
+				"parent" : 20
+			},
+			{
+				"command" : 12,
+				"file" : 7,
+				"line" : 44,
+				"parent" : 21
+			},
+			{
+				"file" : 6,
+				"parent" : 22
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 14,
+				"parent" : 23
+			},
+			{
+				"command" : 15,
+				"file" : 8,
+				"line" : 221,
+				"parent" : 19
+			},
+			{
+				"command" : 14,
+				"file" : 8,
+				"line" : 145,
+				"parent" : 25
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 52,
+				"parent" : 26
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 53,
+				"parent" : 26
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 54,
+				"parent" : 26
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 57,
+				"parent" : 26
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 58,
+				"parent" : 26
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 59,
+				"parent" : 26
+			},
+			{
+				"command" : 13,
+				"file" : 6,
+				"line" : 18,
+				"parent" : 23
+			},
+			{
+				"command" : 16,
+				"file" : 3,
+				"line" : 55,
+				"parent" : 9
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=c++11"
+				},
+				{
+					"fragment" : "-DASSERT_FILE_ID=0x74372cb8 -DASSERT_RELATIVE_PATH='\"Svc/ComQueue/ComQueue.cpp\"'"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "FW_BAREMETAL_SCHEDULER=0"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "TGT_OS_TYPE_LINUX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 27,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/config"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build/config"
+				},
+				{
+					"backtrace" : 33,
+					"isSystem" : true,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/cmake/platform/types"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=c++11"
+				},
+				{
+					"fragment" : "-DASSERT_FILE_ID=0x7d79c637 -DASSERT_RELATIVE_PATH='\"build/F-Prime/Svc/ComQueue/BuffQueueDepthArrayAc.cpp\"'"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "FW_BAREMETAL_SCHEDULER=0"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "TGT_OS_TYPE_LINUX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 27,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/config"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build/config"
+				},
+				{
+					"backtrace" : 33,
+					"isSystem" : true,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/cmake/platform/types"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				5
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=c++11"
+				},
+				{
+					"fragment" : "-DASSERT_FILE_ID=0xa37a640e -DASSERT_RELATIVE_PATH='\"build/F-Prime/Svc/ComQueue/ComQueueComponentAc.cpp\"'"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "FW_BAREMETAL_SCHEDULER=0"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "TGT_OS_TYPE_LINUX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 27,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/config"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build/config"
+				},
+				{
+					"backtrace" : 33,
+					"isSystem" : true,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/cmake/platform/types"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				7
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=c++11"
+				},
+				{
+					"fragment" : "-DASSERT_FILE_ID=0x5826b902 -DASSERT_RELATIVE_PATH='\"build/F-Prime/Svc/ComQueue/ComQueueDepthArrayAc.cpp\"'"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "FW_BAREMETAL_SCHEDULER=0"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "TGT_OS_TYPE_LINUX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 27,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/config"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build/config"
+				},
+				{
+					"backtrace" : 33,
+					"isSystem" : true,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/cmake/platform/types"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				9
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=c++11"
+				},
+				{
+					"fragment" : "-DASSERT_FILE_ID=0x2b438d7d -DASSERT_RELATIVE_PATH='\"build/F-Prime/Svc/ComQueue/QueueTypeEnumAc.cpp\"'"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "FW_BAREMETAL_SCHEDULER=0"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "TGT_OS_TYPE_LINUX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 27,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/config"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build/config"
+				},
+				{
+					"backtrace" : 33,
+					"isSystem" : true,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/cmake/platform/types"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				11
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 10,
+			"id" : "config::@1ea838694151cac89012"
+		},
+		{
+			"id" : "Fw_Buffer::@b6a4fd4b11177980df5a"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Fw_Cmd::@ae626cd099d41e9e9318"
+		},
+		{
+			"id" : "Fw_Com::@6a3e6ae556dcaf1b2d03"
+		},
+		{
+			"id" : "Fw_Log::@d2c214098f28da1657da"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "Fw_Logger::@6651bd2042d48ad4175a"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Fw_Prm::@7b6b0bc4a611939e7048"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Fw_Time::@8ee86473d26419eb0a0e"
+		},
+		{
+			"id" : "Fw_Tlm::@9a2bbdd1c1e62b480de7"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Fw_Cfg::@3d630e8d24c0bc520c50"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "Fw_Comp::@be13a7255a8c30152ae7"
+		},
+		{
+			"id" : "Fw_CompQueued::@be13a7255a8c30152ae7"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "Fw_Obj::@912483ad28fc1305733b"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Fw_Port::@1b2ea0455839762bd179"
+		},
+		{
+			"id" : "Fw_Ports_SuccessCondition::@08f9430cdbbf7b5a7cb9"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Fw_Types::@765d384e0a6293393b03"
+		},
+		{
+			"id" : "Svc_Sched::@a762d5916fe004d0f286"
+		},
+		{
+			"id" : "Os::@1c77778ad90289ad7483"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "Utils_Hash::@edd27f8e17e26521d077"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Utils_Types::@48e23cb50aec726171e2"
+		}
+	],
+	"id" : "Svc_ComQueue::@cb086346a0fbf8e726cc",
+	"name" : "Svc_ComQueue",
+	"nameOnDisk" : "libSvc_ComQueue.a",
+	"paths" : 
+	{
+		"build" : "F-Prime/Svc/ComQueue",
+		"source" : "fprime/Svc/ComQueue"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				5,
+				7,
+				9,
+				11
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				6,
+				8,
+				10,
+				12
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				13,
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "fprime/Svc/ComQueue/ComQueue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Svc/ComQueue/BuffQueueDepthArrayAi.xml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 34,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Svc/ComQueue/ComQueueComponentAi.xml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 34,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Svc/ComQueue/ComQueueDepthArrayAi.xml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 34,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Svc/ComQueue/QueueTypeEnumAi.xml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Svc/ComQueue/BuffQueueDepthArrayAc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Svc/ComQueue/BuffQueueDepthArrayAc.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 2,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Svc/ComQueue/ComQueueComponentAc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Svc/ComQueue/ComQueueComponentAc.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 3,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Svc/ComQueue/ComQueueDepthArrayAc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Svc/ComQueue/ComQueueDepthArrayAc.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 4,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Svc/ComQueue/QueueTypeEnumAc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Svc/ComQueue/QueueTypeEnumAc.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Svc/ComQueue/BuffQueueDepthArrayAi.xml.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Svc/ComQueue/BuffQueueDepthArrayAc.cpp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

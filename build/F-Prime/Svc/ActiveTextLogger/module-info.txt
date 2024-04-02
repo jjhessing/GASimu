@@ -1,0 +1,5 @@
+
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/ActiveTextLogger/ActiveTextLogger.cpp;/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/ActiveTextLogger/LogFile.cpp
+/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAi.xml;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.cpp;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.hpp
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/ActiveTextLogger/ActiveTextLogger.fpp
+

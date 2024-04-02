@@ -1,0 +1,5 @@
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Drv/LinuxSpiDriver/Events.fppi
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Drv/LinuxSpiDriver/Telemetry.fppi
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Drv/SpiDriverPorts/SpiDriverPorts.fpp
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Fw/Log/Log.fpp
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Fw/Tlm/Tlm.fpp

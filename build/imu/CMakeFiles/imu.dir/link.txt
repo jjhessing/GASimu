@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/Linux/libimu.a CMakeFiles/imu.dir/imu.cpp.o CMakeFiles/imu.dir/imuComponentAc.cpp.o
+/usr/bin/ranlib ../lib/Linux/libimu.a

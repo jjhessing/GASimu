@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "F-Prime/Drv/I2cDriverPorts",
+		"source" : "fprime/Drv/I2cDriverPorts"
+	}
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/Linux/libFw_Dp.a CMakeFiles/Fw_Dp.dir/DpContainer.cpp.o CMakeFiles/Fw_Dp.dir/DpGetPortAc.cpp.o CMakeFiles/Fw_Dp.dir/DpRequestPortAc.cpp.o CMakeFiles/Fw_Dp.dir/DpResponsePortAc.cpp.o CMakeFiles/Fw_Dp.dir/DpSendPortAc.cpp.o CMakeFiles/Fw_Dp.dir/DpStateEnumAc.cpp.o
+/usr/bin/ranlib ../../../lib/Linux/libFw_Dp.a

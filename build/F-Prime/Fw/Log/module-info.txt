@@ -1,0 +1,5 @@
+
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Fw/Log/LogBuffer.cpp;/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Fw/Log/LogPacket.cpp;/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Fw/Log/LogString.cpp;/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Fw/Log/TextLogString.cpp
+/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Fw/Log/LogPortAi.xml;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Fw/Log/LogSeverityEnumAi.xml;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Fw/Log/LogTextPortAi.xml;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Fw/Log/LogPortAc.cpp;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Fw/Log/LogPortAc.hpp;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Fw/Log/LogSeverityEnumAc.cpp;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Fw/Log/LogSeverityEnumAc.hpp;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Fw/Log/LogTextPortAc.cpp;/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Fw/Log/LogTextPortAc.hpp
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Fw/Log/Log.fpp
+Fw/Com

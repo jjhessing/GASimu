@@ -1,0 +1,2 @@
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/FileUplink/Events.fppi
+/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Svc/FileUplink/Telemetry.fppi

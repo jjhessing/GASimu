@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "F-Prime/Fw/Types/GTest",
+		"source" : "fprime/Fw/Types/GTest"
+	}
+}

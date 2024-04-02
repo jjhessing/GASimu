@@ -1,0 +1,504 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/Linux/libDrv_StreamCrossover.a"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"generate_base_module_properties",
+			"generate_library",
+			"register_fprime_module",
+			"target_link_libraries",
+			"build_setup_build_module",
+			"build_add_module_target",
+			"cmake_language",
+			"setup_single_target",
+			"setup_module_targets",
+			"add_dependencies",
+			"add_definitions",
+			"include",
+			"include_directories",
+			"fprime_setup_global_includes",
+			"fprime_initialize_build_system",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"fprime/cmake/module.cmake",
+			"fprime/cmake/API.cmake",
+			"fprime/Drv/StreamCrossover/CMakeLists.txt",
+			"fprime/cmake/target/build.cmake",
+			"fprime/cmake/target/target.cmake",
+			"fprime/Fw/CMakeLists.txt",
+			"fprime/cmake/platform/Linux.cmake",
+			"fprime/cmake/platform/platform.cmake",
+			"fprime/cmake/FPrime.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 228,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 155,
+				"parent" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 116,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 116,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 141,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 93,
+				"parent" : 9
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 27,
+				"parent" : 11
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 12,
+				"file" : 9,
+				"line" : 13,
+				"parent" : 13
+			},
+			{
+				"file" : 8,
+				"parent" : 14
+			},
+			{
+				"command" : 12,
+				"file" : 8,
+				"line" : 29,
+				"parent" : 15
+			},
+			{
+				"file" : 7,
+				"parent" : 16
+			},
+			{
+				"command" : 12,
+				"file" : 7,
+				"line" : 44,
+				"parent" : 17
+			},
+			{
+				"file" : 6,
+				"parent" : 18
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 14,
+				"parent" : 19
+			},
+			{
+				"command" : 15,
+				"file" : 8,
+				"line" : 221,
+				"parent" : 15
+			},
+			{
+				"command" : 14,
+				"file" : 8,
+				"line" : 145,
+				"parent" : 21
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 52,
+				"parent" : 22
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 53,
+				"parent" : 22
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 54,
+				"parent" : 22
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 57,
+				"parent" : 22
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 58,
+				"parent" : 22
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 59,
+				"parent" : 22
+			},
+			{
+				"command" : 13,
+				"file" : 6,
+				"line" : 18,
+				"parent" : 19
+			},
+			{
+				"command" : 16,
+				"file" : 3,
+				"line" : 55,
+				"parent" : 9
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=c++11"
+				},
+				{
+					"fragment" : "-DASSERT_FILE_ID=0xa0103272 -DASSERT_RELATIVE_PATH='\"Drv/StreamCrossover/StreamCrossover.cpp\"'"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "FW_BAREMETAL_SCHEDULER=0"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "TGT_OS_TYPE_LINUX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 23,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/config"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build/config"
+				},
+				{
+					"backtrace" : 29,
+					"isSystem" : true,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/cmake/platform/types"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=c++11"
+				},
+				{
+					"fragment" : "-DASSERT_FILE_ID=0xf62619f6 -DASSERT_RELATIVE_PATH='\"build/F-Prime/Drv/StreamCrossover/StreamCrossoverComponentAc.cpp\"'"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "FW_BAREMETAL_SCHEDULER=0"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "TGT_OS_TYPE_LINUX"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 23,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/config"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/build/config"
+				},
+				{
+					"backtrace" : 29,
+					"isSystem" : true,
+					"path" : "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/cmake/platform/types"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 10,
+			"id" : "config::@1ea838694151cac89012"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "Fw_Buffer::@b6a4fd4b11177980df5a"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Fw_Cmd::@ae626cd099d41e9e9318"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Fw_Com::@6a3e6ae556dcaf1b2d03"
+		},
+		{
+			"id" : "Fw_Log::@d2c214098f28da1657da"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "Fw_Logger::@6651bd2042d48ad4175a"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Fw_Prm::@7b6b0bc4a611939e7048"
+		},
+		{
+			"id" : "Fw_Time::@8ee86473d26419eb0a0e"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Fw_Tlm::@9a2bbdd1c1e62b480de7"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Fw_Cfg::@3d630e8d24c0bc520c50"
+		},
+		{
+			"id" : "Fw_Comp::@be13a7255a8c30152ae7"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "Fw_Obj::@912483ad28fc1305733b"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Fw_Port::@1b2ea0455839762bd179"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Fw_Types::@765d384e0a6293393b03"
+		},
+		{
+			"id" : "Drv_ByteStreamDriverModel::@eb982be30f8597d87992"
+		}
+	],
+	"id" : "Drv_StreamCrossover::@6a1e93ab9540cd26ef07",
+	"name" : "Drv_StreamCrossover",
+	"nameOnDisk" : "libDrv_StreamCrossover.a",
+	"paths" : 
+	{
+		"build" : "F-Prime/Drv/StreamCrossover",
+		"source" : "fprime/Drv/StreamCrossover"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 30,
+			"compileGroupIndex" : 0,
+			"path" : "fprime/Drv/StreamCrossover/StreamCrossover.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Drv/StreamCrossover/StreamCrossoverComponentAi.xml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 30,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Drv/StreamCrossover/StreamCrossoverComponentAc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 30,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Drv/StreamCrossover/StreamCrossoverComponentAc.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Drv/StreamCrossover/StreamCrossoverComponentAi.xml.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/F-Prime/Drv/StreamCrossover/StreamCrossoverComponentAc.cpp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}
