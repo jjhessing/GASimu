@@ -5,7 +5,7 @@ module Components {
         # One async command/port is required for active components
         # This should be overridden by the developers with a useful command/port
         @ TODO
-        async command TODO opcode 0
+        @ async command TODO opcode 0
 
         ##############################################################################
         #### Uncomment the following examples to start customizing your component ####
@@ -30,9 +30,9 @@ module Components {
         # @ Example event
         # event ExampleStateEvent(example_state: Fw.On) severity activity high id 0 format "State set to {}"
         event accelData(accelX: F32, accelY: F32, accelZ: F32) \
-            severity activity high \
+            severity activity low \
             id 0 \
-            format "accel x, y, z: {} {} {}"
+            format "accel x, y, z: {f} {f} {f}"
 
         # @ Example port: receiving calls from the rate group
         # sync input port run: Svc.Sched

@@ -31,21 +31,15 @@ namespace Components {
   // ----------------------------------------------------------------------
 
   void imu ::
-    TODO_cmdHandler(
-        FwOpcodeType opCode,
-        U32 cmdSeq
-    )
-  {
-    // TODO
-    this->cmdResponse_out(opCode, cmdSeq, Fw::CmdResponse::OK);
-  }
-
-  void imu ::
     PULL_ACCEl_cmdHandler(
         FwOpcodeType opCode,
         U32 cmdSeq
     )
   {
+    this->tlmWrite_accelXt(87.5);
+    this->tlmWrite_accelYt(90);
+    this->tlmWrite_accelZt(2.75);
+    this->log_ACTIVITY_LO_accelData(87.5,90,2.75);
     // TODO
     this->cmdResponse_out(opCode, cmdSeq, Fw::CmdResponse::OK);
   }
