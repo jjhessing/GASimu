@@ -1393,15 +1393,5 @@
   "directory": "/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Utils/Types",
   "command": "/usr/bin/g++ -DFW_BAREMETAL_SCHEDULER=0 -DTGT_OS_TYPE_LINUX -I/home/jjhessing/Documents/GAS/GASimu/imu/fprime -I/home/jjhessing/Documents/GAS/GASimu/imu/fprime/config -I/home/jjhessing/Documents/GAS/GASimu/imu -I/home/jjhessing/Documents/GAS/GASimu/imu/build -I/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime -I/home/jjhessing/Documents/GAS/GASimu/imu/build/config -isystem /home/jjhessing/Documents/GAS/GASimu/imu/fprime/cmake/platform/types -g -std=c++11 -DASSERT_FILE_ID=0x09671f84 -DASSERT_RELATIVE_PATH='\"Utils/Types/Queue.cpp\"' -o CMakeFiles/Utils_Types.dir/Queue.cpp.o -c /home/jjhessing/Documents/GAS/GASimu/imu/fprime/Utils/Types/Queue.cpp",
   "file": "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/Utils/Types/Queue.cpp"
-},
-{
-  "directory": "/home/jjhessing/Documents/GAS/GASimu/imu/build/imu",
-  "command": "/usr/bin/g++ -DFW_BAREMETAL_SCHEDULER=0 -DTGT_OS_TYPE_LINUX -I/home/jjhessing/Documents/GAS/GASimu/imu/fprime -I/home/jjhessing/Documents/GAS/GASimu/imu/fprime/config -I/home/jjhessing/Documents/GAS/GASimu/imu -I/home/jjhessing/Documents/GAS/GASimu/imu/build -I/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime -I/home/jjhessing/Documents/GAS/GASimu/imu/build/config -isystem /home/jjhessing/Documents/GAS/GASimu/imu/fprime/cmake/platform/types -g -std=c++11 -DASSERT_FILE_ID=0x348e435f -DASSERT_RELATIVE_PATH='\"imu/imu.cpp\"' -o CMakeFiles/imu.dir/imu.cpp.o -c /home/jjhessing/Documents/GAS/GASimu/imu/imu/imu.cpp",
-  "file": "/home/jjhessing/Documents/GAS/GASimu/imu/imu/imu.cpp"
-},
-{
-  "directory": "/home/jjhessing/Documents/GAS/GASimu/imu/build/imu",
-  "command": "/usr/bin/g++ -DFW_BAREMETAL_SCHEDULER=0 -DTGT_OS_TYPE_LINUX -I/home/jjhessing/Documents/GAS/GASimu/imu/fprime -I/home/jjhessing/Documents/GAS/GASimu/imu/fprime/config -I/home/jjhessing/Documents/GAS/GASimu/imu -I/home/jjhessing/Documents/GAS/GASimu/imu/build -I/home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime -I/home/jjhessing/Documents/GAS/GASimu/imu/build/config -isystem /home/jjhessing/Documents/GAS/GASimu/imu/fprime/cmake/platform/types -g -std=c++11 -DASSERT_FILE_ID=0x5e6026cc -DASSERT_RELATIVE_PATH='\"build/imu/imuComponentAc.cpp\"' -o CMakeFiles/imu.dir/imuComponentAc.cpp.o -c /home/jjhessing/Documents/GAS/GASimu/imu/build/imu/imuComponentAc.cpp",
-  "file": "/home/jjhessing/Documents/GAS/GASimu/imu/build/imu/imuComponentAc.cpp"
 }
 ]

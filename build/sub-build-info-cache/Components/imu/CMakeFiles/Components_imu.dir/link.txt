@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/Linux/libComponents_imu.a CMakeFiles/Components_imu.dir/__/__/fprime/cmake/empty.cpp.o
+/usr/bin/ranlib ../../lib/Linux/libComponents_imu.a

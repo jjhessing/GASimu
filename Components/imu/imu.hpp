@@ -7,7 +7,7 @@
 #ifndef Components_imu_HPP
 #define Components_imu_HPP
 
-#include "imu/imuComponentAc.hpp"
+#include "Components/imu/imuComponentAc.hpp"
 
 namespace Components {
 
@@ -39,6 +39,12 @@ namespace Components {
       //!
       //! TODO
       void TODO_cmdHandler(
+          FwOpcodeType opCode, //!< The opcode
+          U32 cmdSeq //!< The command sequence number
+      ) override;
+
+      //! Handler implementation for command PULL_ACCEl
+      void PULL_ACCEl_cmdHandler(
           FwOpcodeType opCode, //!< The opcode
           U32 cmdSeq //!< The command sequence number
       ) override;

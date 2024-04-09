@@ -73,7 +73,6 @@ all: F-Prime/Drv/all
 all: F-Prime/CFDP/all
 all: F-Prime/Utils/all
 all: Components/all
-all: imu/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -86,7 +85,6 @@ preinstall: F-Prime/Drv/preinstall
 preinstall: F-Prime/CFDP/preinstall
 preinstall: F-Prime/Utils/preinstall
 preinstall: Components/preinstall
-preinstall: imu/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -101,7 +99,6 @@ clean: F-Prime/Drv/clean
 clean: F-Prime/CFDP/clean
 clean: F-Prime/Utils/clean
 clean: Components/clean
-clean: imu/clean
 .PHONY : clean
 
 #=============================================================================
@@ -1795,21 +1792,6 @@ config/clean: config/CMakeFiles/config.dir/clean
 .PHONY : config/clean
 
 #=============================================================================
-# Directory level rules for directory imu
-
-# Recursive "all" directory target.
-imu/all: imu/CMakeFiles/imu.dir/all
-.PHONY : imu/all
-
-# Recursive "preinstall" directory target.
-imu/preinstall:
-.PHONY : imu/preinstall
-
-# Recursive "clean" directory target.
-imu/clean: imu/CMakeFiles/imu.dir/clean
-.PHONY : imu/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/version.dir
 
 # All Build rule for target.
@@ -1868,7 +1850,7 @@ CMakeFiles/refresh_cache.dir/clean:
 F-Prime/Autocoders/Python/src/fprime_ac/generators/templates/CMakeFiles/codegen.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/src/fprime_ac/generators/templates/CMakeFiles/codegen.dir/build.make F-Prime/Autocoders/Python/src/fprime_ac/generators/templates/CMakeFiles/codegen.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/src/fprime_ac/generators/templates/CMakeFiles/codegen.dir/build.make F-Prime/Autocoders/Python/src/fprime_ac/generators/templates/CMakeFiles/codegen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=96,97,98 "Built target codegen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=97,98,99 "Built target codegen"
 .PHONY : F-Prime/Autocoders/Python/src/fprime_ac/generators/templates/CMakeFiles/codegen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1894,7 +1876,7 @@ F-Prime/Autocoders/Python/src/fprime_ac/generators/templates/CMakeFiles/codegen.
 config/CMakeFiles/config.dir/all:
 	$(MAKE) $(MAKESILENT) -f config/CMakeFiles/config.dir/build.make config/CMakeFiles/config.dir/depend
 	$(MAKE) $(MAKESILENT) -f config/CMakeFiles/config.dir/build.make config/CMakeFiles/config.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=99 "Built target config"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=100 "Built target config"
 .PHONY : config/CMakeFiles/config.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1936,7 +1918,7 @@ F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_T
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer.dir/rule
@@ -1966,7 +1948,7 @@ F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/build.make F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/build.make F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=18,19 "Built target Fw_Cmd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=19,20 "Built target Fw_Cmd"
 .PHONY : F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1998,12 +1980,12 @@ F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir
 F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/build.make F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/build.make F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=20,21 "Built target Fw_Com"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=21 "Built target Fw_Com"
 .PHONY : F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/rule
@@ -2037,7 +2019,7 @@ F-Prime/Fw/Dp/CMakeFiles/Fw_Dp.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir
 F-Prime/Fw/Dp/CMakeFiles/Fw_Dp.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Dp/CMakeFiles/Fw_Dp.dir/build.make F-Prime/Fw/Dp/CMakeFiles/Fw_Dp.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Dp/CMakeFiles/Fw_Dp.dir/build.make F-Prime/Fw/Dp/CMakeFiles/Fw_Dp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=22,23 "Built target Fw_Dp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=23 "Built target Fw_Dp"
 .PHONY : F-Prime/Fw/Dp/CMakeFiles/Fw_Dp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2099,12 +2081,12 @@ F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/all: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg
 F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num= "Built target Fw_Logger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=28 "Built target Fw_Logger"
 .PHONY : F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/rule
@@ -2135,12 +2117,12 @@ F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir
 F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/build.make F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/build.make F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=31 "Built target Fw_Prm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=31,32 "Built target Fw_Prm"
 .PHONY : F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/rule
@@ -2166,12 +2148,12 @@ F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Port.d
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=33 "Built target Fw_Time"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=34 "Built target Fw_Time"
 .PHONY : F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/rule
@@ -2199,7 +2181,7 @@ F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/build.make F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/build.make F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=34,35 "Built target Fw_Tlm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=35 "Built target Fw_Tlm"
 .PHONY : F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2225,12 +2207,12 @@ F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/clean:
 F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/all: config/CMakeFiles/config.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/build.make F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/build.make F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num= "Built target Fw_Cfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=18 "Built target Fw_Cfg"
 .PHONY : F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/rule
@@ -2261,7 +2243,7 @@ F-Prime/Fw/Comp/CMakeFiles/Fw_Comp.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Comp/CMakeFiles/Fw_Comp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Comp/CMakeFiles/Fw_Comp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Fw/Comp/CMakeFiles/Fw_Comp.dir/rule
@@ -2290,12 +2272,12 @@ F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/all: F-Prime/Os/CMakeFiles/Os.dir/a
 F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/build.make F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/build.make F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num= "Built target Fw_CompQueued"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=22 "Built target Fw_CompQueued"
 .PHONY : F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/rule
@@ -2334,7 +2316,7 @@ F-Prime/Fw/FilePacket/CMakeFiles/Fw_FilePacket.dir/all: F-Prime/CFDP/Checksum/CM
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/FilePacket/CMakeFiles/Fw_FilePacket.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/FilePacket/CMakeFiles/Fw_FilePacket.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Fw/FilePacket/CMakeFiles/Fw_FilePacket.dir/rule
@@ -2358,12 +2340,12 @@ F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/all: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/a
 F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/build.make F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/build.make F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=28 "Built target Fw_Obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num= "Built target Fw_Obj"
 .PHONY : F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/rule
@@ -2393,7 +2375,7 @@ F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/rule
@@ -2430,7 +2412,7 @@ F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/all: 
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/rule
@@ -2453,12 +2435,12 @@ F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/all: F-Prime/Fw/C
 F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/build.make F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/build.make F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=32 "Built target Fw_SerializableFile"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num= "Built target Fw_SerializableFile"
 .PHONY : F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/rule
@@ -2481,12 +2463,12 @@ F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/all: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir
 F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/build.make F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/build.make F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num= "Built target Fw_Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=33 "Built target Fw_Test"
 .PHONY : F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/rule
@@ -2508,12 +2490,12 @@ F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all: config/CMakeFiles/config.dir/all
 F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=36,37,38,39 "Built target Fw_Types"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=36,37,38,39,40 "Built target Fw_Types"
 .PHONY : F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/rule
@@ -2547,12 +2529,12 @@ F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/build.make F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/build.make F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=64 "Built target Svc_Cycle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num= "Built target Svc_Cycle"
 .PHONY : F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/rule
@@ -2589,7 +2571,7 @@ F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_T
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/rule
@@ -2621,12 +2603,12 @@ F-Prime/Svc/Ping/CMakeFiles/Svc_Ping.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Port
 F-Prime/Svc/Ping/CMakeFiles/Svc_Ping.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Ping/CMakeFiles/Svc_Ping.dir/build.make F-Prime/Svc/Ping/CMakeFiles/Svc_Ping.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Ping/CMakeFiles/Svc_Ping.dir/build.make F-Prime/Svc/Ping/CMakeFiles/Svc_Ping.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num= "Built target Svc_Ping"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=81 "Built target Svc_Ping"
 .PHONY : F-Prime/Svc/Ping/CMakeFiles/Svc_Ping.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Ping/CMakeFiles/Svc_Ping.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Ping/CMakeFiles/Svc_Ping.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/Ping/CMakeFiles/Svc_Ping.dir/rule
@@ -2658,12 +2640,12 @@ F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_
 F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/build.make F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/build.make F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=82 "Built target Svc_PolyIf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=83 "Built target Svc_PolyIf"
 .PHONY : F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/rule
@@ -2695,12 +2677,12 @@ F-Prime/Svc/Sched/CMakeFiles/Svc_Sched.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Po
 F-Prime/Svc/Sched/CMakeFiles/Svc_Sched.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Sched/CMakeFiles/Svc_Sched.dir/build.make F-Prime/Svc/Sched/CMakeFiles/Svc_Sched.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Sched/CMakeFiles/Svc_Sched.dir/build.make F-Prime/Svc/Sched/CMakeFiles/Svc_Sched.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num= "Built target Svc_Sched"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=87 "Built target Svc_Sched"
 .PHONY : F-Prime/Svc/Sched/CMakeFiles/Svc_Sched.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Sched/CMakeFiles/Svc_Sched.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Sched/CMakeFiles/Svc_Sched.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/Sched/CMakeFiles/Svc_Sched.dir/rule
@@ -2732,12 +2714,12 @@ F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Port.d
 F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/build.make F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/build.make F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=87 "Built target Svc_Seq"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=88 "Built target Svc_Seq"
 .PHONY : F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/rule
@@ -2769,12 +2751,12 @@ F-Prime/Svc/WatchDog/CMakeFiles/Svc_WatchDog.dir/all: F-Prime/Fw/Port/CMakeFiles
 F-Prime/Svc/WatchDog/CMakeFiles/Svc_WatchDog.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/WatchDog/CMakeFiles/Svc_WatchDog.dir/build.make F-Prime/Svc/WatchDog/CMakeFiles/Svc_WatchDog.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/WatchDog/CMakeFiles/Svc_WatchDog.dir/build.make F-Prime/Svc/WatchDog/CMakeFiles/Svc_WatchDog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=92 "Built target Svc_WatchDog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=93 "Built target Svc_WatchDog"
 .PHONY : F-Prime/Svc/WatchDog/CMakeFiles/Svc_WatchDog.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/WatchDog/CMakeFiles/Svc_WatchDog.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/WatchDog/CMakeFiles/Svc_WatchDog.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/WatchDog/CMakeFiles/Svc_WatchDog.dir/rule
@@ -2812,12 +2794,12 @@ F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/all: F-Prime/Os/CMakeFi
 F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/build.make F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/build.make F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=46 "Built target Svc_ActiveLogger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=46,47 "Built target Svc_ActiveLogger"
 .PHONY : F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/rule
@@ -2856,12 +2838,12 @@ F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/all: F-Prime/Os/C
 F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/build.make F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/build.make F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=47 "Built target Svc_ActiveRateGroup"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=48 "Built target Svc_ActiveRateGroup"
 .PHONY : F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/rule
@@ -2894,12 +2876,12 @@ F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/all: F-Prim
 F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/build.make F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/build.make F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=49 "Built target Svc_AssertFatalAdapter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=50 "Built target Svc_AssertFatalAdapter"
 .PHONY : F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/rule
@@ -2937,12 +2919,12 @@ F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/all: F-Prime/
 F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/build.make F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/build.make F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=50,51 "Built target Svc_BufferAccumulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=51 "Built target Svc_BufferAccumulator"
 .PHONY : F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/rule
@@ -2979,12 +2961,12 @@ F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/all: F-Prime/Os/CMake
 F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/build.make F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/build.make F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=53 "Built target Svc_BufferManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=54 "Built target Svc_BufferManager"
 .PHONY : F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/rule
@@ -3023,12 +3005,12 @@ F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/all: F-Prime/Os/CMakeFi
 F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=52 "Built target Svc_BufferLogger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=52,53 "Built target Svc_BufferLogger"
 .PHONY : F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/rule
@@ -3062,12 +3044,12 @@ F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/all: F-Prime/Fw/Por
 F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/build.make F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/build.make F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=54 "Built target Svc_BufferRepeater"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=55 "Built target Svc_BufferRepeater"
 .PHONY : F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/rule
@@ -3104,12 +3086,12 @@ F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/all: F-Prime/Os/CMakeFiles/Os
 F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/build.make F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/build.make F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=59 "Built target Svc_ComLogger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=60 "Built target Svc_ComLogger"
 .PHONY : F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/rule
@@ -3149,12 +3131,12 @@ F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/all: F-Prime/Utils/Hash/CMakeFi
 F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/all: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/build.make F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/build.make F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=60,61 "Built target Svc_ComQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=61,62 "Built target Svc_ComQueue"
 .PHONY : F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/rule
@@ -3187,12 +3169,12 @@ F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/all: F-Prime/Fw/Port/CMak
 F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/build.make F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/build.make F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=62 "Built target Svc_ComSplitter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=63 "Built target Svc_ComSplitter"
 .PHONY : F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/rule
@@ -3228,12 +3210,12 @@ F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/all: F-Prime/Fw/Types/CMakeFiles/
 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/all: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/build.make F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/build.make F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=63 "Built target Svc_ComStub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=64 "Built target Svc_ComStub"
 .PHONY : F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/rule
@@ -3270,12 +3252,12 @@ F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/all: F-Prime/Os/CMake
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/build.make F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/build.make F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=55 "Built target Svc_CmdDispatcher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=56 "Built target Svc_CmdDispatcher"
 .PHONY : F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/rule
@@ -3314,12 +3296,12 @@ F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/all: F-Prime/Os/CMakeFi
 F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/build.make F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/build.make F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=56,57 "Built target Svc_CmdSequencer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=57,58 "Built target Svc_CmdSequencer"
 .PHONY : F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/rule
@@ -3352,12 +3334,12 @@ F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/all: F-Prime/Fw/Port/CMak
 F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/build.make F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/build.make F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=58 "Built target Svc_CmdSplitter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=59 "Built target Svc_CmdSplitter"
 .PHONY : F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/rule
@@ -3402,7 +3384,7 @@ F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/all: F-Prime/Utils/Types/CMakeF
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/rule
@@ -3475,12 +3457,12 @@ F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/all: F-Prime/
 F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/build.make F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/build.make F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=69 "Built target Svc_FileDownlinkPorts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=70 "Built target Svc_FileDownlinkPorts"
 .PHONY : F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/rule
@@ -3522,12 +3504,12 @@ F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/all: F-Prime/CFDP/Check
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/build.make F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/build.make F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=68 "Built target Svc_FileDownlink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=68,69 "Built target Svc_FileDownlink"
 .PHONY : F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/rule
@@ -3567,12 +3549,12 @@ F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/all: F-Prime/CFDP/Checksu
 F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/build.make F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/build.make F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=70 "Built target Svc_FileManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=71 "Built target Svc_FileManager"
 .PHONY : F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/rule
@@ -3612,12 +3594,12 @@ F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/all: F-Prime/CFDP/Checksum/
 F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/build.make F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/build.make F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=71,72 "Built target Svc_FileUplink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=72 "Built target Svc_FileUplink"
 .PHONY : F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/rule
@@ -3651,12 +3633,12 @@ F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/all: F-Prime/Fw/Port/CMakeF
 F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/build.make F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/build.make F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=74 "Built target Svc_GenericHub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=75 "Built target Svc_GenericHub"
 .PHONY : F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/rule
@@ -3694,12 +3676,12 @@ F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/all: F-Prime/Util
 F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/all: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/build.make F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/build.make F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=75 "Built target Svc_GroundInterface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=76 "Built target Svc_GroundInterface"
 .PHONY : F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/rule
@@ -3744,7 +3726,7 @@ F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/all: F-Prime/Utils/Types/CMakeFiles
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/rule
@@ -3779,12 +3761,12 @@ F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/all: F-Prime/Util
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/all: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num= "Built target Svc_FramingProtocol"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=74 "Built target Svc_FramingProtocol"
 .PHONY : F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/rule
@@ -3823,12 +3805,12 @@ F-Prime/Svc/Health/CMakeFiles/Svc_Health.dir/all: F-Prime/Os/CMakeFiles/Os.dir/a
 F-Prime/Svc/Health/CMakeFiles/Svc_Health.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Health/CMakeFiles/Svc_Health.dir/build.make F-Prime/Svc/Health/CMakeFiles/Svc_Health.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Health/CMakeFiles/Svc_Health.dir/build.make F-Prime/Svc/Health/CMakeFiles/Svc_Health.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=76,77 "Built target Svc_Health"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=77 "Built target Svc_Health"
 .PHONY : F-Prime/Svc/Health/CMakeFiles/Svc_Health.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Health/CMakeFiles/Svc_Health.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Health/CMakeFiles/Svc_Health.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/Health/CMakeFiles/Svc_Health.dir/rule
@@ -3906,7 +3888,7 @@ F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/all: F-Prime/Os/CMakeFiles/Os.dir/a
 F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/build.make F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/build.make F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=81 "Built target Svc_PolyDb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=82 "Built target Svc_PolyDb"
 .PHONY : F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3948,12 +3930,12 @@ F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/build.make F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/build.make F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=84,85 "Built target Svc_PrmDb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=85 "Built target Svc_PrmDb"
 .PHONY : F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/rule
@@ -3994,7 +3976,7 @@ F-Prime/Svc/RateGroupDriver/CMakeFiles/Svc_RateGroupDriver.dir/all: F-Prime/Util
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/RateGroupDriver/CMakeFiles/Svc_RateGroupDriver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/RateGroupDriver/CMakeFiles/Svc_RateGroupDriver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/RateGroupDriver/CMakeFiles/Svc_RateGroupDriver.dir/rule
@@ -4030,7 +4012,7 @@ F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/all: F-Prime/Os/CMakeFi
 F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/build.make F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/build.make F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=88 "Built target Svc_StaticMemory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=89 "Built target Svc_StaticMemory"
 .PHONY : F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4073,12 +4055,12 @@ F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan.dir/all: F-Prime/Os/CMakeFiles/Os.dir
 F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan.dir/build.make F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan.dir/build.make F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=90 "Built target Svc_TlmChan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=91 "Built target Svc_TlmChan"
 .PHONY : F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan.dir/rule
@@ -4116,12 +4098,12 @@ F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/all: F-Prime/Os/CMake
 F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=91 "Built target Svc_TlmPacketizer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=92 "Built target Svc_TlmPacketizer"
 .PHONY : F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/rule
@@ -4158,12 +4140,12 @@ F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/all: F-Prime/Os/C
 F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/build.make F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/build.make F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=89 "Built target Svc_SystemResources"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=90 "Built target Svc_SystemResources"
 .PHONY : F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/rule
@@ -4201,7 +4183,7 @@ F-Prime/Svc/PassiveConsoleTextLogger/CMakeFiles/Svc_PassiveConsoleTextLogger.dir
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/PassiveConsoleTextLogger/CMakeFiles/Svc_PassiveConsoleTextLogger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/PassiveConsoleTextLogger/CMakeFiles/Svc_PassiveConsoleTextLogger.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/PassiveConsoleTextLogger/CMakeFiles/Svc_PassiveConsoleTextLogger.dir/rule
@@ -4237,12 +4219,12 @@ F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/all: F-Prime/Os
 F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/build.make F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/build.make F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=48 "Built target Svc_ActiveTextLogger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=49 "Built target Svc_ActiveTextLogger"
 .PHONY : F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/rule
@@ -4275,12 +4257,12 @@ F-Prime/Svc/PosixTime/CMakeFiles/Svc_PosixTime.dir/all: F-Prime/Fw/Port/CMakeFil
 F-Prime/Svc/PosixTime/CMakeFiles/Svc_PosixTime.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PosixTime/CMakeFiles/Svc_PosixTime.dir/build.make F-Prime/Svc/PosixTime/CMakeFiles/Svc_PosixTime.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PosixTime/CMakeFiles/Svc_PosixTime.dir/build.make F-Prime/Svc/PosixTime/CMakeFiles/Svc_PosixTime.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=83 "Built target Svc_PosixTime"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=84 "Built target Svc_PosixTime"
 .PHONY : F-Prime/Svc/PosixTime/CMakeFiles/Svc_PosixTime.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/PosixTime/CMakeFiles/Svc_PosixTime.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/PosixTime/CMakeFiles/Svc_PosixTime.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/PosixTime/CMakeFiles/Svc_PosixTime.dir/rule
@@ -4321,7 +4303,7 @@ F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer.dir/all: F-Prime/Utils/Hash/CMa
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer.dir/rule
@@ -4346,12 +4328,12 @@ F-Prime/Os/CMakeFiles/Os.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 F-Prime/Os/CMakeFiles/Os.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Os/CMakeFiles/Os.dir/build.make F-Prime/Os/CMakeFiles/Os.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Os/CMakeFiles/Os.dir/build.make F-Prime/Os/CMakeFiles/Os.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=40,41,42,43,44,45 "Built target Os"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=41,42,43,44,45 "Built target Os"
 .PHONY : F-Prime/Os/CMakeFiles/Os.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Os/CMakeFiles/Os.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Os/CMakeFiles/Os.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Os/CMakeFiles/Os.dir/rule
@@ -4388,7 +4370,7 @@ F-Prime/Drv/DataTypes/CMakeFiles/Drv_DataTypes.dir/all: F-Prime/Fw/Types/CMakeFi
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/DataTypes/CMakeFiles/Drv_DataTypes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/DataTypes/CMakeFiles/Drv_DataTypes.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Drv/DataTypes/CMakeFiles/Drv_DataTypes.dir/rule
@@ -4423,7 +4405,7 @@ F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/all: F-Prime/Fw/T
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/rule
@@ -4461,7 +4443,7 @@ F-Prime/Drv/SpiDriverPorts/CMakeFiles/Drv_SpiDriverPorts.dir/all: F-Prime/Fw/Typ
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/SpiDriverPorts/CMakeFiles/Drv_SpiDriverPorts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/SpiDriverPorts/CMakeFiles/Drv_SpiDriverPorts.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Drv/SpiDriverPorts/CMakeFiles/Drv_SpiDriverPorts.dir/rule
@@ -4499,7 +4481,7 @@ F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts.dir/all: F-Prime/Fw/Typ
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts.dir/rule
@@ -4544,7 +4526,7 @@ F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/all: F-Prime/Utils/Hash/C
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/rule
@@ -4582,7 +4564,7 @@ F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/all: 
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/rule
@@ -4624,7 +4606,7 @@ F-Prime/Drv/LinuxGpioDriver/CMakeFiles/Drv_LinuxGpioDriver.dir/all: F-Prime/Util
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/LinuxGpioDriver/CMakeFiles/Drv_LinuxGpioDriver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxGpioDriver/CMakeFiles/Drv_LinuxGpioDriver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Drv/LinuxGpioDriver/CMakeFiles/Drv_LinuxGpioDriver.dir/rule
@@ -4706,7 +4688,7 @@ F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/all: F-Prime/Drv/Sp
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/rule
@@ -4788,7 +4770,7 @@ F-Prime/Drv/StreamCrossover/CMakeFiles/Drv_StreamCrossover.dir/all: F-Prime/Drv/
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/StreamCrossover/CMakeFiles/Drv_StreamCrossover.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/StreamCrossover/CMakeFiles/Drv_StreamCrossover.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Drv/StreamCrossover/CMakeFiles/Drv_StreamCrossover.dir/rule
@@ -4985,7 +4967,7 @@ F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/all: F-Prime/Fw/Types/CMakeFi
 
 # Build rule for subdir invocation for target.
 F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/rule
@@ -5014,12 +4996,12 @@ F-Prime/Utils/CMakeFiles/Utils.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 F-Prime/Utils/CMakeFiles/Utils.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Utils/CMakeFiles/Utils.dir/build.make F-Prime/Utils/CMakeFiles/Utils.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Utils/CMakeFiles/Utils.dir/build.make F-Prime/Utils/CMakeFiles/Utils.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=93 "Built target Utils"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=94 "Built target Utils"
 .PHONY : F-Prime/Utils/CMakeFiles/Utils.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Utils/CMakeFiles/Utils.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Utils/CMakeFiles/Utils.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Utils/CMakeFiles/Utils.dir/rule
@@ -5042,12 +5024,12 @@ F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all: F-Prime/Fw/Cfg/CMakeFiles/Fw_C
 F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/build.make F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/build.make F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=94 "Built target Utils_Hash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=95 "Built target Utils_Hash"
 .PHONY : F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/rule
@@ -5070,12 +5052,12 @@ F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/all: F-Prime/Fw/Cfg/CMakeFiles/Fw
 F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/build.make F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/build.make F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=95 "Built target Utils_Types"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=96 "Built target Utils_Types"
 .PHONY : F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
 .PHONY : F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/rule
@@ -5088,47 +5070,6 @@ Utils_Types: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/rule
 F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/clean:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/build.make F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/clean
 .PHONY : F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/clean
-
-#=============================================================================
-# Target rules for target imu/CMakeFiles/imu.dir
-
-# All Build rule for target.
-imu/CMakeFiles/imu.dir/all: config/CMakeFiles/config.dir/all
-imu/CMakeFiles/imu.dir/all: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/all
-imu/CMakeFiles/imu.dir/all: F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/all
-imu/CMakeFiles/imu.dir/all: F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/all
-imu/CMakeFiles/imu.dir/all: F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/all
-imu/CMakeFiles/imu.dir/all: F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/all
-imu/CMakeFiles/imu.dir/all: F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/all
-imu/CMakeFiles/imu.dir/all: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/all
-imu/CMakeFiles/imu.dir/all: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/all
-imu/CMakeFiles/imu.dir/all: F-Prime/Fw/Comp/CMakeFiles/Fw_Comp.dir/all
-imu/CMakeFiles/imu.dir/all: F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/all
-imu/CMakeFiles/imu.dir/all: F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/all
-imu/CMakeFiles/imu.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/all
-imu/CMakeFiles/imu.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
-imu/CMakeFiles/imu.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
-imu/CMakeFiles/imu.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
-	$(MAKE) $(MAKESILENT) -f imu/CMakeFiles/imu.dir/build.make imu/CMakeFiles/imu.dir/depend
-	$(MAKE) $(MAKESILENT) -f imu/CMakeFiles/imu.dir/build.make imu/CMakeFiles/imu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles --progress-num=100 "Built target imu"
-.PHONY : imu/CMakeFiles/imu.dir/all
-
-# Build rule for subdir invocation for target.
-imu/CMakeFiles/imu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 25
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imu/CMakeFiles/imu.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jjhessing/Documents/GAS/GASimu/imu/build/CMakeFiles 0
-.PHONY : imu/CMakeFiles/imu.dir/rule
-
-# Convenience name for target.
-imu: imu/CMakeFiles/imu.dir/rule
-.PHONY : imu
-
-# clean rule for target.
-imu/CMakeFiles/imu.dir/clean:
-	$(MAKE) $(MAKESILENT) -f imu/CMakeFiles/imu.dir/build.make imu/CMakeFiles/imu.dir/clean
-.PHONY : imu/CMakeFiles/imu.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

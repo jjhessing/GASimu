@@ -5430,66 +5430,6 @@
 		},
 		{
 			"path" : "Components/CMakeLists.txt"
-		},
-		{
-			"path" : "imu/CMakeLists.txt"
-		},
-		{
-			"path" : "fprime/cmake/autocoder/fpp.cmake"
-		},
-		{
-			"path" : "fprime/cmake/autocoder/fpp.cmake"
-		},
-		{
-			"path" : "fprime/cmake/autocoder/ai_xml.cmake"
-		},
-		{
-			"path" : "fprime/cmake/utilities.cmake"
-		},
-		{
-			"path" : "fprime/cmake/autocoder/helpers.cmake"
-		},
-		{
-			"path" : "fprime/cmake/autocoder/ai-shared.cmake"
-		},
-		{
-			"path" : "fprime/cmake/autocoder/ai_xml.cmake"
-		},
-		{
-			"path" : "fprime/cmake/utilities.cmake"
-		},
-		{
-			"path" : "fprime/cmake/autocoder/helpers.cmake"
-		},
-		{
-			"path" : "fprime/cmake/autocoder/ai-shared.cmake"
-		},
-		{
-			"path" : "fprime/cmake/autocoder/packets.cmake"
-		},
-		{
-			"path" : "fprime/cmake/utilities.cmake"
-		},
-		{
-			"path" : "fprime/cmake/autocoder/helpers.cmake"
-		},
-		{
-			"path" : "fprime/cmake/autocoder/ai-shared.cmake"
-		},
-		{
-			"path" : "fprime/cmake/autocoder/packets.cmake"
-		},
-		{
-			"path" : "fprime/cmake/utilities.cmake"
-		},
-		{
-			"path" : "fprime/cmake/autocoder/helpers.cmake"
-		},
-		{
-			"path" : "fprime/cmake/autocoder/ai-shared.cmake"
-		},
-		{
-			"path" : "imu/imu.fpp"
 		}
 	],
 	"kind" : "cmakeFiles",

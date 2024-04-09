@@ -1247,19 +1247,6 @@ Utils_Types/fast:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/build.make F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/build
 .PHONY : Utils_Types/fast
 
-#=============================================================================
-# Target rules for targets named imu
-
-# Build rule for target.
-imu: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imu
-.PHONY : imu
-
-# fast build rule for target.
-imu/fast:
-	$(MAKE) $(MAKESILENT) -f imu/CMakeFiles/imu.dir/build.make imu/CMakeFiles/imu.dir/build
-.PHONY : imu/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1355,7 +1342,6 @@ help:
 	@echo "... Utils_Hash"
 	@echo "... Utils_Types"
 	@echo "... config"
-	@echo "... imu"
 .PHONY : help
 
 

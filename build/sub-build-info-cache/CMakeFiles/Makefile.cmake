@@ -9,6 +9,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../../CMakeLists.txt"
   "../../Components/CMakeLists.txt"
+  "../../Components/imu/CMakeLists.txt"
+  "../../Components/imu/imu.fpp"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
@@ -214,8 +216,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../../fprime/config/CMakeLists.txt"
   "../../fprime/config/DpCfg.fpp"
   "../../fprime/config/FpConfig.fpp"
-  "../../imu/CMakeLists.txt"
-  "../../imu/imu.fpp"
   "../../project.cmake"
   "../../settings.ini"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
@@ -352,7 +352,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "F-Prime/Utils/Hash/CMakeFiles/CMakeDirectoryInformation.cmake"
   "F-Prime/Utils/Types/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Components/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "imu/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Components/imu/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -528,6 +528,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "F-Prime/Utils/Hash/CMakeFiles/fpp_depend_Utils_Hash.dir/DependInfo.cmake"
   "F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/DependInfo.cmake"
   "F-Prime/Utils/Types/CMakeFiles/fpp_depend_Utils_Types.dir/DependInfo.cmake"
-  "imu/CMakeFiles/imu.dir/DependInfo.cmake"
-  "imu/CMakeFiles/fpp_depend_imu.dir/DependInfo.cmake"
+  "Components/imu/CMakeFiles/Components_imu.dir/DependInfo.cmake"
+  "Components/imu/CMakeFiles/fpp_depend_Components_imu.dir/DependInfo.cmake"
   )

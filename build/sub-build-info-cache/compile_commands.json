@@ -420,8 +420,8 @@
   "file": "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/cmake/empty.cpp"
 },
 {
-  "directory": "/home/jjhessing/Documents/GAS/GASimu/imu/build/sub-build-info-cache/imu",
-  "command": "/usr/bin/g++ -DTGT_OS_TYPE_LINUX -I/home/jjhessing/Documents/GAS/GASimu/imu/fprime -I/home/jjhessing/Documents/GAS/GASimu/imu/fprime/config -I/home/jjhessing/Documents/GAS/GASimu/imu -I/home/jjhessing/Documents/GAS/GASimu/imu/build/sub-build-info-cache -I/home/jjhessing/Documents/GAS/GASimu/imu/build/sub-build-info-cache/F-Prime -I/home/jjhessing/Documents/GAS/GASimu/imu/build/sub-build-info-cache/config -isystem /home/jjhessing/Documents/GAS/GASimu/imu/fprime/cmake/platform/types -g -std=c++11 -o CMakeFiles/imu.dir/__/fprime/cmake/empty.cpp.o -c /home/jjhessing/Documents/GAS/GASimu/imu/fprime/cmake/empty.cpp",
+  "directory": "/home/jjhessing/Documents/GAS/GASimu/imu/build/sub-build-info-cache/Components/imu",
+  "command": "/usr/bin/g++ -DTGT_OS_TYPE_LINUX -I/home/jjhessing/Documents/GAS/GASimu/imu/fprime -I/home/jjhessing/Documents/GAS/GASimu/imu/fprime/config -I/home/jjhessing/Documents/GAS/GASimu/imu -I/home/jjhessing/Documents/GAS/GASimu/imu/build/sub-build-info-cache -I/home/jjhessing/Documents/GAS/GASimu/imu/build/sub-build-info-cache/F-Prime -I/home/jjhessing/Documents/GAS/GASimu/imu/build/sub-build-info-cache/config -isystem /home/jjhessing/Documents/GAS/GASimu/imu/fprime/cmake/platform/types -g -std=c++11 -o CMakeFiles/Components_imu.dir/__/__/fprime/cmake/empty.cpp.o -c /home/jjhessing/Documents/GAS/GASimu/imu/fprime/cmake/empty.cpp",
   "file": "/home/jjhessing/Documents/GAS/GASimu/imu/fprime/cmake/empty.cpp"
 }
 ]

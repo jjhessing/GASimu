@@ -2340,30 +2340,30 @@ fpp_depend_Utils_Types/fast:
 .PHONY : fpp_depend_Utils_Types/fast
 
 #=============================================================================
-# Target rules for targets named imu
+# Target rules for targets named Components_imu
 
 # Build rule for target.
-imu: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imu
-.PHONY : imu
+Components_imu: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Components_imu
+.PHONY : Components_imu
 
 # fast build rule for target.
-imu/fast:
-	$(MAKE) $(MAKESILENT) -f imu/CMakeFiles/imu.dir/build.make imu/CMakeFiles/imu.dir/build
-.PHONY : imu/fast
+Components_imu/fast:
+	$(MAKE) $(MAKESILENT) -f Components/imu/CMakeFiles/Components_imu.dir/build.make Components/imu/CMakeFiles/Components_imu.dir/build
+.PHONY : Components_imu/fast
 
 #=============================================================================
-# Target rules for targets named fpp_depend_imu
+# Target rules for targets named fpp_depend_Components_imu
 
 # Build rule for target.
-fpp_depend_imu: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fpp_depend_imu
-.PHONY : fpp_depend_imu
+fpp_depend_Components_imu: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fpp_depend_Components_imu
+.PHONY : fpp_depend_Components_imu
 
 # fast build rule for target.
-fpp_depend_imu/fast:
-	$(MAKE) $(MAKESILENT) -f imu/CMakeFiles/fpp_depend_imu.dir/build.make imu/CMakeFiles/fpp_depend_imu.dir/build
-.PHONY : fpp_depend_imu/fast
+fpp_depend_Components_imu/fast:
+	$(MAKE) $(MAKESILENT) -f Components/imu/CMakeFiles/fpp_depend_Components_imu.dir/build.make Components/imu/CMakeFiles/fpp_depend_Components_imu.dir/build
+.PHONY : fpp_depend_Components_imu/fast
 
 # Help Target
 help:
@@ -2376,6 +2376,7 @@ help:
 	@echo "... codegen"
 	@echo "... fpp_depend"
 	@echo "... fpp_depend_CFDP_Checksum"
+	@echo "... fpp_depend_Components_imu"
 	@echo "... fpp_depend_Drv_BlockDriver"
 	@echo "... fpp_depend_Drv_ByteStreamDriverModel"
 	@echo "... fpp_depend_Drv_DataTypes"
@@ -2459,9 +2460,9 @@ help:
 	@echo "... fpp_depend_Utils_Hash"
 	@echo "... fpp_depend_Utils_Types"
 	@echo "... fpp_depend_config"
-	@echo "... fpp_depend_imu"
 	@echo "... fpp_locs"
 	@echo "... CFDP_Checksum"
+	@echo "... Components_imu"
 	@echo "... Drv_BlockDriver"
 	@echo "... Drv_ByteStreamDriverModel"
 	@echo "... Drv_DataTypes"
@@ -2545,7 +2546,6 @@ help:
 	@echo "... Utils_Hash"
 	@echo "... Utils_Types"
 	@echo "... config"
-	@echo "... imu"
 .PHONY : help
 
 

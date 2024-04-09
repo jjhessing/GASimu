@@ -281,6 +281,3 @@
 /home/jjhessing/Documents/GAS/GASimu/imu/build/F-Prime/Utils/Types/CMakeFiles/rebuild_cache.dir
 /home/jjhessing/Documents/GAS/GASimu/imu/build/Components/CMakeFiles/edit_cache.dir
 /home/jjhessing/Documents/GAS/GASimu/imu/build/Components/CMakeFiles/rebuild_cache.dir
-/home/jjhessing/Documents/GAS/GASimu/imu/build/imu/CMakeFiles/imu.dir
-/home/jjhessing/Documents/GAS/GASimu/imu/build/imu/CMakeFiles/edit_cache.dir
-/home/jjhessing/Documents/GAS/GASimu/imu/build/imu/CMakeFiles/rebuild_cache.dir

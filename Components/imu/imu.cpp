@@ -4,8 +4,8 @@
 // \brief  cpp file for imu component implementation class
 // ======================================================================
 
+#include "Components/imu/imu.hpp"
 #include "FpConfig.hpp"
-#include "imu/imu.hpp"
 
 namespace Components {
 
@@ -32,6 +32,16 @@ namespace Components {
 
   void imu ::
     TODO_cmdHandler(
+        FwOpcodeType opCode,
+        U32 cmdSeq
+    )
+  {
+    // TODO
+    this->cmdResponse_out(opCode, cmdSeq, Fw::CmdResponse::OK);
+  }
+
+  void imu ::
+    PULL_ACCEl_cmdHandler(
         FwOpcodeType opCode,
         U32 cmdSeq
     )

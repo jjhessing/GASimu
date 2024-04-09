@@ -16,8 +16,7 @@
 						75,
 						91,
 						94,
-						97,
-						98
+						97
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -28,8 +27,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						86,
-						87
+						85,
+						86
 					]
 				},
 				{
@@ -1562,21 +1561,6 @@
 					"parentIndex" : 0,
 					"projectIndex" : 0,
 					"source" : "Components"
-				},
-				{
-					"build" : "imu",
-					"jsonFile" : "directory-imu-Debug-682f98f0d683fd67f0c6.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.13"
-					},
-					"parentIndex" : 0,
-					"projectIndex" : 0,
-					"source" : "imu",
-					"targetIndexes" : 
-					[
-						85
-					]
 				}
 			],
 			"name" : "Debug",
@@ -1682,8 +1666,7 @@
 						94,
 						95,
 						96,
-						97,
-						98
+						97
 					],
 					"name" : "imu",
 					"targetIndexes" : 
@@ -1774,8 +1757,7 @@
 						83,
 						84,
 						85,
-						86,
-						87
+						86
 					]
 				}
 			],
@@ -2374,13 +2356,6 @@
 					"id" : "config::@1ea838694151cac89012",
 					"jsonFile" : "target-config-Debug-0f5d71f347b02259826f.json",
 					"name" : "config",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 98,
-					"id" : "imu::@f7c173c2b3be48e197b7",
-					"jsonFile" : "target-imu-Debug-e6ce570e731c1565fba8.json",
-					"name" : "imu",
 					"projectIndex" : 0
 				},
 				{

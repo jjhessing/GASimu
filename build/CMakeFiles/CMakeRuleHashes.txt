@@ -152,5 +152,3 @@ f8ab43386ab9c8807ea42f194ecd0005 F-Prime/Svc/TlmPacketizer/TlmPacketizerComponen
 841a81b14a89f9cef9f4f04111198599 F-Prime/Svc/WatchDog/WatchDogPortAi.xml
 f9aebb615fbaec08c3dbf61e73a267b5 config/FppConstantsAc.cpp
 7e0bba31c9781c468ba7473f0401aadd config/ProcTypeEnumAi.xml
-2417e2a3c255e3b07df4f8f2d53dc30e imu/imuComponentAc.cpp
-bd77203ff431163a679254d6d6292b48 imu/imuComponentAi.xml
