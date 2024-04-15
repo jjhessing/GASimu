@@ -41,6 +41,7 @@ module imuDeployment {
     instance rateGroupDriver
     instance textLogger
     instance systemResources
+    instance imuInstance
 
     # ----------------------------------------------------------------------
     # Pattern graph specifiers

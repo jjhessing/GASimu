@@ -82,5 +82,9 @@
 
     <ignore>
         <channel name="cmdDisp.CommandErrors"/>
+        <channel name="imuInstance.printCount"/>
+        <channel name="imuInstance.accelXt"/>
+        <channel name="imuInstance.accelYt"/>
+        <channel name="imuInstance.accelZt"/>
     </ignore>
 </packets>
