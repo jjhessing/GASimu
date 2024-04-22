@@ -8,6 +8,7 @@
 #define Components_imu_HPP
 
 #include "Components/imu/imuComponentAc.hpp"
+#include "fprime/Drv/LinuxI2cDriver/LinuxI2cDriver.hpp"
 
 namespace Components {
 
@@ -38,8 +39,12 @@ namespace Components {
       //! Handler implementation for command PULL_ACCEl
       void PULL_ACCEl_cmdHandler(
           FwOpcodeType opCode, //!< The opcode
-          U32 cmdSeq //!< The command sequence number
+          U32 cmdSeq, //!< The command sequence number
+          U32 addr
       ) override;
+
+      //! Implementation of Linux i2c driver class
+      Drv::LinuxI2cDriver i2c;
 
   };
 

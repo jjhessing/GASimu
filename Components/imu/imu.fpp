@@ -13,7 +13,7 @@ module Components {
 
         # @ Example async command
         # async command COMMAND_NAME(param_name: U32)
-        async command PULL_ACCEl ()
+        async command PULL_ACCEl (addr: U32)
 
         # @ Example telemetry counter
         # telemetry ExampleCounter: U64
@@ -34,8 +34,23 @@ module Components {
             id 0 \
             format "accel x, y, z: {f} {f} {f}"
 
+        event i2cOpened() \
+            severity activity low \
+            id 1 \
+            format "I2C connection opened successfully"
+
+        event i2cFailure() \
+            severity activity high \
+            id 2\
+            format "I2C connection failed to open"
+
         # @ Example port: receiving calls from the rate group
         # sync input port run: Svc.Sched
+
+        @ Port for i2c slaves
+        guarded input port read: Drv.I2c
+
+        # guarded input port write: Drv.I2c
 
         # @ Example parameter
         # param PARAMETER_NAME: U32
