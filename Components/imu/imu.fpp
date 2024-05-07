@@ -48,7 +48,7 @@ module Components {
         # sync input port run: Svc.Sched
 
         @ Port for i2c slaves
-        guarded input port read: Drv.I2c
+        # guarded input port read: Drv.I2c
 
         # guarded input port write: Drv.I2c
 
